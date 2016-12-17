@@ -1,0 +1,171 @@
+/*Made by Andrew Erickson*/
+
+/*GENERAL*/
+body {
+  background-color: transparent;
+  background-image: url('../img/space1.gif') !important;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  z-index: 2;
+}
+
+.magic-container2 {
+  visibility: hidden;
+  display: none;
+}
+
+
+
+/*NAVIGATION*/
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+
+
+/*BODY*/
+
+body::before {
+  visibility: visible;
+  content: "//Made by Andrew";
+  color: rgba(83,0,84, .5);
+  position:fixed;
+  display: block;
+  font-weight:bolder;
+  font-size: 20vw;
+  /*float: left;
+  right: 70%;
+  bottom: 1%;*/
+  top: 50;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  z-index: -1;
+}
+
+body::after {
+  visibility: visible;
+  content: "李恩哲 设计师";
+  color: rgba(83,0,84, .5);
+  position:fixed;
+  display: block;
+  font-weight:bolder;
+  font-size: 8vw;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  float: left;
+  left: 70%;
+  top: 15%;
+  z-index: 1;
+}
+
+
+
+.jumbotron {
+  background: url('../img/space.gif') no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  font-size: 4em;
+  top: 0;
+}
+
+.jumbotron .container h1 {
+  color: white;
+  font-size: 4em;
+  transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg); /* IE 9 */
+  -webkit-transform: rotate(-10deg);
+}
+
+h1#iphone-text {
+  color: white;
+}
+
+.md-landscape {
+  margin: 10px 10px;
+}
+
+
+
+#triangles svg {
+  position: absolute;
+  display: block;
+}
+@media screen and (max-width: 850px) {
+
+  #triangles {
+    opacity: .2;
+  }
+}
+
+#triangles #bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+#triangles #top-right {
+  top: 0;
+  right: 0;
+}
+
+
+
+/*FOOTER */
+
+p.copyright {
+  text-align: baseline;
+  float: left;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: transparent;
+  padding: 25px;
+}
+
+
+
+footer p.social {
+  font-size: 18px;
+  float: right;
+}
+
+footer p.social a {
+  padding: 0 3px;
+  border-color: transparent;
+}
+
+footer p.social a:hover {
+  color: #6868DA;
+}
+@media screen and (max-width: 600px) {
+
+  footer {
+    text-align: center;
+  }
+
+  footer p.copyright, footer p.social {
+    float: none;
+    padding: 0;
+  }
+}
+
+
+
+/*DEVICE RESPONSIVE*/
+
+/*iphone5 verticle width - iphone 6 plus horrizontal width */
+@media screen and (max-width: 1000px){
+  .magic-container {
+      display: none;
+  }
+  .magic-container2 {
+    visibility: visible;
+  }
+
+}
