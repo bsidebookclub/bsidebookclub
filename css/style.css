@@ -5,5 +5,10 @@ body {
   background-image: url('../img/') !important;
 }
 
+a#betaWeb {
+ text-decoration: none;
+ color: #FF9180;
+}
+
 
 
