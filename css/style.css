@@ -3,6 +3,7 @@
 /*GENERAL*/
 body {
   background-image: url('../img/') !important;
+  font-family: 'Fira Sans', sans-serif !important;
 }
 
 a#betaWeb {
