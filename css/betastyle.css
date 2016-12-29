@@ -27,6 +27,10 @@ html,body{
 	font-family: 'Fira Sans', sans-serif !important; 
 }
 
+footer {
+      font-family: Inconsolata,sans-serif;
+}
+
 html{
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
