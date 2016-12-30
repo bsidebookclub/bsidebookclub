@@ -12,6 +12,11 @@ background: url(../img/lightpaperfibers.png) white;
     z-index: 3;
 }
 
+.main-header .main-logo #logosvg {
+    margin-top: -6px;
+    background: url(/img/bsidedooodle.svg) no-repeat bottom center;
+}
+
 .main-header .nav-button {
     height: 58px;
     width: 58px;
