@@ -1,3 +1,27 @@
 body {
 background: url(../img/lightpaperfibers.png) white;
 }
+
+.main-header .main-logo {
+    position: absolute;
+    top: 30px;
+    right: 22px;
+    font: 700 72px/72px 'NoeDisplay', 'Times', serif;
+    width: 32px;
+    height: 32px;
+    z-index: 3;
+}
+
+.main-header .nav-button {
+    height: 58px;
+    width: 58px;
+    border-radius: 100%;
+    background: #2a2a2c;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    margin: -29px -29px 0 0;
+    z-index: 5;
+    cursor: pointer;
+}
+
