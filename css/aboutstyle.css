@@ -27,12 +27,12 @@ body {
 	position: absolute;
 	top: 30px;
 	right: 22px;
-	width: 32px;
-	height: 32px;
+	width: 72px;
+	height: 72px;
 	z-index: 3;
 }
 
-#smilesvg, #eyessvg {
+#logosvg {
 	position: absolute;
 	top: 0;
 	right: 0;
