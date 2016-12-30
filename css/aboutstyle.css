@@ -11,21 +11,6 @@ background: url(../img/lightpaperfibers.png) white;
     z-index: 3;
 }
 
-.main-header .main-logo #logosvg {
-    margin-top: -6px;
-    background: url(/img/bsidedooodle.svg) no-repeat bottom center;
-}
-
-.main-header .main-logo #logosvg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    -webkit-transform-origin: center center;
-    transform-origin: center center;
-}
-
 .main-header .nav-button {
     height: 58px;
     width: 58px;
@@ -39,3 +24,17 @@ background: url(../img/lightpaperfibers.png) white;
     cursor: pointer;
 }
 
+.main-header .main-logo #logosvg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+}
+
+.main-header .main-logo #logosvg {
+    margin-top: -6px;
+    background: url(/img/bsidedooodle.svg) no-repeat bottom center;
+}
