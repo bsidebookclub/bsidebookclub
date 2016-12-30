@@ -6,9 +6,8 @@ background: url(../img/lightpaperfibers.png) white;
     position: absolute;
     top: 30px;
     right: 22px;
-    font: 700 72px/72px 'NoeDisplay', 'Times', serif;
-    width: 32px;
-    height: 32px;
+    width: 72px;
+    height: 72px;
     z-index: 3;
 }
 
