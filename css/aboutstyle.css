@@ -17,6 +17,16 @@ background: url(../img/lightpaperfibers.png) white;
     background: url(/img/bsidedooodle.svg) no-repeat bottom center;
 }
 
+.main-header .main-logo #logosvg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+}
+
 .main-header .nav-button {
     height: 58px;
     width: 58px;
