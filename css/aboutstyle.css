@@ -59,33 +59,30 @@ body {
 	cursor: pointer;
 }
 
-.nav-button .hovered span:nth-child(1) {
-	transform: translateY(-7px);
+.main-header .nav-button.hovered span:nth-child(1) {
+  transform: translateY(-7px);
 }
-
-.nav-button .hovered span:nth-child(2) {
-	transform: translateY(7px);
+.main-header .nav-button.hovered span:nth-child(2) {
+  transform: translateY(7px);
 }
-
-.nav-button span {
-	display: block;
-	height: 2px;
-	width: 26px;
-	width: 0;
-	background: white;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -1px 0 0 -13px;
-	margin-left: 0;
-	transition: all .5s!important;
+.main-header .nav-button span {
+  display: block;
+  height: 2px;
+  width: 26px;
+  width: 0;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -1px 0 0 -13px;
+  margin-left: 0;
+  transition: all 0.5s !important;
 }
-
-.nav-button span:nth-child(1) {
-	transform: translateY(-5px);
+.main-header .nav-button span:nth-child(1) {
+  transform: translateY(-5px);
 }
-.nav-button span:nth-child(2) {
-	transform: translateY(5px);
+.main-header .nav-button span:nth-child(2) {
+  transform: translateY(5px);
 }
 
 .main-header .main-nav {
@@ -175,6 +172,8 @@ body {
 .main-header .main-nav .social-links a:hover {
 	color: black;
 }
+
+// amimations
 
 
 
