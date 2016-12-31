@@ -58,3 +58,13 @@ body {
 	z-index: 5;
 	cursor: pointer;
 }
+
+.nav-button .hovered span:nth-child(1) {
+	transform: translateY(-7px)
+}
+
+.nav-button .hovered span:nth-child(2)Â {
+	transform: translateY(7px)
+}
+
+
