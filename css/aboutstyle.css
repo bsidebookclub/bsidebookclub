@@ -26,7 +26,7 @@ body {
 .main-logo {
 	position: absolute;
 	top: 30px;
-	right: 2px;
+	right: 5px;
 	width: 72px;
 	height: 72px;
 	z-index: 3;
@@ -97,6 +97,15 @@ body {
 	box-sizing: border-box;
 	border-right: 2px solid #EFEFEF;
 }
-	
+
+.main-header .main-nav .mask {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background: white;
+	z-index: 1;
+}
+
 
 
