@@ -46,3 +46,15 @@ body {
 	background: url(/img/bsidedooodle.svg) no-repeat center center;
 }
 
+.nav-button {
+	height: 58px;
+	width: 58px;
+	border-radius: 100%;
+	background: rgb(101,65,86);
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	margin: -29px -29px 0 0;
+	z-index: 5;
+	cursor: pointer;
+}
