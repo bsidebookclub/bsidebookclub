@@ -157,5 +157,24 @@ body {
 	opacity: 0;
 }
 
+.main-header .main-nav .social-links {
+	position: absolute;
+	bottom: 30px;
+	left: 100px;
+	z-index: 3;
+	color: grey;
+}
+
+.main-header .main-nav .social-links > a {
+	color: black;
+}
+
+.main-header .main-nav .social-links a {
+	transition: color 700ms ease 0ms;
+}
+.main-header .main-nav .social-links a:hover {
+	color: black;
+}
+
 
 
