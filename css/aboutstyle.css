@@ -137,7 +137,7 @@ body {
 
 .main-header .main-nav .list li {
 	position: relative;
-	color: grey;
+	color: #9b9ba4;
 }
 
 .main-header .main-nav .list li:before {
@@ -154,12 +154,29 @@ body {
 	opacity: 0;
 }
 
-.main-header .main-nav .social-links {
-	position: absolute;
-	bottom: 30px;
-	left: 100px;
-	z-index: 3;
-	color: grey;
+.main-header .main-nav .list li:nth-child(1) {
+  margin-bottom: 124px;
+}
+
+.main-header .main-nav .list li:hover,
+.main-header .main-nav .list li.current,
+.main-header .main-nav .list li.active {
+  color: #000;
+}
+
+.main-header .main-nav .list li:hover:before,
+.main-header .main-nav .list li.current:before,
+.main-header .main-nav .list li.active:before {
+  opacity: 1;
+}
+
+.main-header .social-links {
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+  z-index: 3;
+  font: 400 18px/30px 'Work Sans', 'Helvetica', sans-serif;
+  color: #9b9ba4;
 }
 
 .main-header .main-nav .social-links > a {
