@@ -85,6 +85,12 @@ body {
   transform: translateY(5px);
 }
 
+
+.main-header .nav-button span {
+	width: 26px;
+	margin-left: -13px;
+}
+
 .main-header .main-nav {
 	position: absolute;
 	top: 0;
