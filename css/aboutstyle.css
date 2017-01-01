@@ -567,7 +567,52 @@ body {
 	text-decoration: none;
 	cursor: pointer;
 }
+/* ANDREW EDITS */
 
+
+#part-home .position {
+  max-width: 950px;
+  padding: 0 80px;
+  margin: 0 auto 250px;
+  position: relative;
+}
+#part-home .position .head {
+  font: 500 24px/38px 'Work Sans', 'Helvetica', sans-serif;
+  max-width: 470px;
+  text-align: right;
+  margin-bottom: 40px;
+}
+#part-home .position .text {
+  font: 300 24px/38px 'Work Sans', 'Helvetica', sans-serif;
+  box-sizing: border-box;
+  padding-left: 250px;
+}
+#part-home .position .line {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: -220px;
+  left: 100px;
+}
+#part-home .position .line:before {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  transform-origin: center center;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #000;
+  left: 50%;
+  top: 50%;
+  transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition-delay: 0.6s;
+  opacity: 1;
+}
+#part-home .position.hidden .line:before {
+  width: 0%;
+  opacity: 0;
+}
 
 /* CURRENT EDITS ABOVE */
 
