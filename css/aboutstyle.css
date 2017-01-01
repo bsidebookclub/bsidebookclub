@@ -831,3 +831,16 @@ body {
     padding-right: 30px;
   }
 }
+
+.mask-inner ul.list {
+    font: 300 36px/62px 'Work Sans', 'Helvetica', sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 3;
+    
+}
+
+.mask-inner ul.list a {
+	text-decoration: none;
+}
