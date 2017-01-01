@@ -534,10 +534,39 @@ body {
   width: 0px;
   opacity: 0;
 }
-/* 913 */
+/* 913 skills part*/
 
+#part-home .skills {
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  background: #4b32f0;
+  padding: 110px 0;
+}
+#part-home .skills p {
+  font: 500 24px/52px 'Work Sans', 'Helvetica', sans-serif;
+  color: #fff;
+  posiiton: relative;
+}
+#part-home .skills p:before {
+  display: block;
+  content: '';
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  border-radius: 100%;
+  margin: 0 auto 40px;
+}
+#part-home .skills ul {
+  font: 300 30px/52px 'Work Sans', 'Helvetica', sans-serif;
+}
+/* 937 NO ICON SO NO FILL */
 
-
+/* ANDREW EDITS */
+.main-header #bsideemail {
+	text-decoration: none;
+	cursor: pointer;
+}
 
 
 /* CURRENT EDITS ABOVE */
