@@ -477,6 +477,15 @@ body {
   background: #edeafd;
   z-index: 1;
 }
+/* EDITS ANDREW */
+#part-home .text span#figgy:after {
+	content: '';
+	display: block;
+	background: #edeafd;
+	width: 100%;
+}
+
+
 #part-home .presentation {
   max-width: 1100px;
   padding: 0 80px;
@@ -525,6 +534,11 @@ body {
   width: 0px;
   opacity: 0;
 }
+/* 913 */
+
+
+
+
 
 /* CURRENT EDITS ABOVE */
 
