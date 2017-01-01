@@ -196,7 +196,37 @@ body {
 	color: black;
 }
 
-// amimations
+
+.ajax-container {
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.ajax-container.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#part-home {
+  padding-left: 80px;
+}
+#part-home header {
+  position: relative;
+  margin-bottom: 230px;
+}
+#part-home header h1 {
+  position: absolute;
+  top: 100px;
+  left: 70px;
+  z-index: 4;
+  width: 600px;
+  font: 500 40px/48px 'Work Sans', 'Helvetica', sans-serif;
+  color: #9b9ba4;
+}
 
 
 
