@@ -613,6 +613,55 @@ body {
   width: 0%;
   opacity: 0;
 }
+#part-home > * {
+  transition: transform 2000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 2000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms;
+}
+#part-home > *.hidden {
+  opacity: 0;
+  transform: translateY(100px);
+}
+#part-home.displayed h1,
+#part-home.displayed .hero-scroll,
+#part-home.displayed header .contact {
+  transition: transform 1500ms cubic-bezier(0.19, 1, 0.22, 1) 1000ms, opacity 1000ms cubic-bezier(0.19, 1, 0.22, 1) 1000ms;
+}
+#part-home.displayed header .hero-container {
+  transform: translateY(0%);
+  transition: transform 1000ms cubic-bezier(0.19, 1, 0.22, 1) 1000ms, opacity 500ms cubic-bezier(0.19, 1, 0.22, 1) 1000ms;
+}
+#part-home.pre-displayed h1,
+#part-home.pre-displayed .hero-scroll,
+#part-home.pre-displayed header .contact {
+  opacity: 0;
+  transform: translateY(50px);
+}
+#part-home.pre-displayed .hero-scroll {
+  transform: translateY(200px);
+}
+#part-home.pre-displayed header .contact {
+  transform: translateY(200px) rotate(90deg) translateY(-100%);
+}
+#part-home.pre-displayed header .hero-container {
+  opacity: 0;
+  transform: translateY(100%);
+}
+#part-home.hidden h1,
+#part-home.hidden .hero-scroll,
+#part-home.hidden header .contact {
+  transition: opacity 500ms cubic-bezier(0.6, 0.04, 0.98, 0.335) 0ms, transform 500ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  opacity: 0;
+}
+#part-home.hidden .hero-scroll {
+  transform: translateY(-100px);
+}
+#part-home.hidden header .contact {
+  transform: translateY(-100px) rotate(90deg) translateY(-100%);
+}
+#part-home.hidden header .hero-container {
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 1000ms cubic-bezier(0.19, 1, 0.22, 1) 300ms, opacity 900ms cubic-bezier(0.19, 1, 0.22, 1) 300ms;
+}
 
 /* CURRENT EDITS ABOVE */
 
@@ -620,4 +669,130 @@ body {
 
 
 /* Media queries */
-
+@media screen and (max-width: 768px) {
+  #part-home {
+    padding-left: 0;
+  }
+  #part-home header {
+    padding: 0 0 0 20px;
+    margin-bottom: 150px;
+  }
+  #part-home header:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+  }
+  #part-home header h1 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+    font-size: 34px;
+    line-height: 1.5;
+    padding: 120px 20px 0 17%;
+  }
+  #part-home header img {
+    max-width: none;
+    height: 100%;
+    left: auto;
+    right: 0;
+    transform: none;
+  }
+  #part-home header .hero-container {
+    height: auto !important;
+    width: auto;
+    margin: 40px 0 0 45px;
+    text-align: right;
+    float: right;
+  }
+  #part-home header .hero-container .contact {
+    display: none;
+  }
+  #part-home header .background-wrapper {
+    background: url("/assets/medias/home/juergen-hasssler.jpg") no-repeat center right;
+    background-size: cover;
+    width: 80vw;
+    height: 80vw;
+    display: inline-block;
+  }
+  #part-home header .background-wrapper img {
+    display: none;
+  }
+  #part-home header .hero-scroll {
+    margin: 0 !important;
+    left: 0;
+  }
+  #part-home header .hero-scroll p {
+    transform-origin: bottom left;
+    transform: rotate(90deg) translateX(-100%);
+    margin-left: -35px;
+  }
+  #part-home .presentation {
+    max-width: none;
+    padding: 0 35px;
+  }
+  #part-home .presentation .line {
+    top: auto;
+    left: auto;
+    bottom: -30px;
+    right: 0px;
+    margin: 0;
+    width: 160px;
+    height: 160px;
+  }
+  #part-home .presentation .text {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  #part-home .presentation h2 {
+    width: auto;
+  }
+  #part-home .presentation .contact {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    margin-left: 0;
+    margin-top: 100px;
+  }
+  #part-home .skills ul {
+    font-size: 20px;
+    line-height: 2.2;
+  }
+  #part-home .quote p {
+    font-size: 35px;
+    line-height: 1.5;
+    width: auto;
+  }
+  #part-home .position {
+    padding: 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  #part-home .position .line {
+    display: none;
+  }
+  #part-home .position .head {
+    width: auto;
+    font-size: inherit;
+    line-height: inherit;
+    max-width: none;
+    text-align: left;
+  }
+  #part-home .position .text {
+    padding-left: 0px;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  #part-home footer .email {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #part-home header h1 {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-right: 30px;
+  }
+}
