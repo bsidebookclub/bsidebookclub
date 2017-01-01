@@ -843,4 +843,5 @@ body {
 
 .mask-inner ul.list a {
 	text-decoration: none;
+	color: grey;
 }
