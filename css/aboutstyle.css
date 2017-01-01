@@ -563,7 +563,7 @@ body {
 /* 937 NO ICON SO NO FILL */
 
 /* ANDREW EDITS */
-.main-header #bsideemail {
+.main-header a#bsideemail {
 	text-decoration: none;
 	cursor: pointer;
 }
