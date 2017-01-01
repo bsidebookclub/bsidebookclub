@@ -228,5 +228,25 @@ body {
   color: #9b9ba4;
 }
 
-
+#part-home header .hero-container {
+  position: relative;
+  width: calc(100% - 80px);
+  margin-left: 40px;
+}
+#part-home header .hero-container .contact {
+  margin-top: 50px;
+  transform-origin: 0% 0%;
+  transform: rotate(90deg) translateY(-100%);
+}
+#part-home header img {
+  display: block;
+  position: absolute;
+  max-width: calc(100% - 100px);
+  max-height: 100%;
+  margin: 0 auto;
+  bottom: 0;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
