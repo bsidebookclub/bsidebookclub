@@ -86,9 +86,12 @@ body {
 }
 
 
-.main-header .nav-button span {
-	width: 26px;
-	margin-left: -13px;
+.main-header.animation-start-timeout .main-nav .mask {
+  transition: transform 1000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms;
+}
+.main-header.animation-start-timeout .nav-button span {
+  width: 26px;
+  margin-left: -13px;
 }
 
 .main-header .main-nav {
