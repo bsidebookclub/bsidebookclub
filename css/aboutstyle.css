@@ -206,7 +206,9 @@ body {
 .main-header .main-nav .social-links a:hover {
 	color: black;
 }
-
+.main-header.animation-start {
+  transition: transform 1000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms;
+}
 .main-header.animation-start-timeout .main-nav .mask {
   transition: transform 1000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms;
 }
