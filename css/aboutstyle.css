@@ -601,9 +601,10 @@ body {
 /* 937 NO ICON SO NO FILL */
 
 /* ANDREW EDITS */
-.main-header a#bsideemail {
+body a#bookus {
 	text-decoration: none;
 	cursor: pointer;
+	color: grey;
 }
 /* ANDREW EDITS */
 
