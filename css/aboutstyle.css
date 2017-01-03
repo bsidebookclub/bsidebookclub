@@ -314,7 +314,9 @@
     width: 40px;
     margin: 0;
   }
-
+  body div#bookus a {
+		width: 100%;
+	}
  
   .main-header .nav-button.hovered span:nth-child(1) {
     transform: translateY(-4px);
