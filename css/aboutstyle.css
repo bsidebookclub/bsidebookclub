@@ -1,5 +1,6 @@
 body {
-	background: url() white;
+	background: url(img/buttphoto.jpg) white;
+	filter: brightness(50%);
 }
 
 .ajax-container {
