@@ -311,6 +311,11 @@
     width: 40px;
     margin: 0;
   }
+  div#bookus {
+    width: 100%;
+    z-index: 5;
+  }
+ 
   .main-header .nav-button.hovered span:nth-child(1) {
     transform: translateY(-4px);
   }
@@ -351,9 +356,9 @@
     transform: translateX(-100%);
   }
 
-	.main-header .main-nav .list a {
-  display: block;
-  height: 100%;
+  .main-header .main-nav .list a {
+    display: block;
+    height: 100%;
 }
 .main-header .main-nav .list li {
   position: relative;
