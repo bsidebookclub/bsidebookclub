@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(to right, grey 0%,white 100%), url(/img/buttphoto.jpg) no-repeat center center;
+	background: linear-gradient(to right, grey 0%,white 40%), url(/img/buttphoto.jpg) no-repeat center center;
 	background-blend-mode:lighten;
 }
 
