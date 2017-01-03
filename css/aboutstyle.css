@@ -608,7 +608,7 @@ body div#bookus a {
 	display: block;
     position: absolute;
     text-align: center;
-    width: 100%;
+    width: calc(100% - 80px);
 }
 body div#bookus a:hover {
 	content: 'bsidebookclubacappella@gmail.com';
