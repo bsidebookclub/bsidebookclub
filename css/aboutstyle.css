@@ -1,7 +1,6 @@
 body {
 	background: linear-gradient(to right, black 0%,white 100%), url(/img/buttphoto.jpg) no-repeat center center;
-	filter: brightness(50%);
-  background-blend-mode:lighten;
+	background-blend-mode:lighten;
 }
 
 .ajax-container {
