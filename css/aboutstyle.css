@@ -314,13 +314,10 @@
     width: 40px;
     margin: 0;
   }
-	body div#bookus {
-	width: auto;
-	}
-	
-  body div#bookus a {
-		width: 100% !important;
-	}
+		body div#bookus {
+		width: auto;
+		}
+
  
   .main-header .nav-button.hovered span:nth-child(1) {
     transform: translateY(-4px);
