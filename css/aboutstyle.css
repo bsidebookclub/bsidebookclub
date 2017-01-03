@@ -315,7 +315,7 @@
     margin: 0;
   }
   body div#bookus a {
-		width: 100%;
+		width: 100% !important;
 	}
  
   .main-header .nav-button.hovered span:nth-child(1) {
