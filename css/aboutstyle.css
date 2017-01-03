@@ -605,6 +605,14 @@ body a#bookus {
 	text-decoration: none;
 	cursor: pointer;
 	color: grey;
+	display: block;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+body a#bookus:hover {
+	content: 'bsidebookclubacappella@gmail.com';
+	
 }
 /* ANDREW EDITS */
 
