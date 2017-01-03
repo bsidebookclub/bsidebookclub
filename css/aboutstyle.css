@@ -236,10 +236,10 @@ body {
   transform: translateX(0);
 }
 .main-header.displayed .nav-button span:nth-child(1) {
-  transform: rotate(45deg);
+  transform: rotate(45deg) !important;
 }
 .main-header.displayed .nav-button span:nth-child(2) {
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) !important;
 }
 .main-header.displayed .main-nav .mask {
   transform: translateX(0);
