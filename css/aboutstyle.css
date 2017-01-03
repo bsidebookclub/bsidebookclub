@@ -601,7 +601,7 @@ body {
 /* 937 NO ICON SO NO FILL */
 
 /* ANDREW EDITS */
-body a#bookus {
+body div#bookus a {
 	text-decoration: none;
 	cursor: pointer;
 	color: grey;
@@ -610,7 +610,7 @@ body a#bookus {
     text-align: center;
     width: 100%;
 }
-body a#bookus:hover {
+body div#bookus a:hover {
 	content: 'bsidebookclubacappella@gmail.com';
 	
 }
