@@ -276,6 +276,9 @@
     transition: none !important;
     z-index: 100;
   }
+  header.main-header {
+    z-index: -1;
+  }
   .main-header .main-logo + p {
     display: none;
   }
@@ -311,10 +314,7 @@
     width: 40px;
     margin: 0;
   }
-  div#bookus {
-    width: 100%;
-    z-index: 5;
-  }
+
  
   .main-header .nav-button.hovered span:nth-child(1) {
     transform: translateY(-4px);
