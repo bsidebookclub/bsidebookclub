@@ -314,6 +314,10 @@
     width: 40px;
     margin: 0;
   }
+	body div#bookus {
+	width: auto;
+	}
+	
   body div#bookus a {
 		width: 100% !important;
 	}
@@ -608,19 +612,21 @@
 /* 937 NO ICON SO NO FILL */
 
 /* ANDREW EDITS */
+body div#bookus {
+	display: block;
+	text-align: center;
+	width: calc(100% - 80px);
+}
 body div#bookus a {
 	text-decoration: none;
 	cursor: pointer;
 	color: grey;
-	display: block;
-    position: absolute;
-    text-align: center;
-    width: calc(100% - 80px);
+  position: absolute;
 }
 body div#bookus a:hover {
 	content: 'bsidebookclubacappella@gmail.com';
-	
 }
+
 /* ANDREW EDITS */
 
 
