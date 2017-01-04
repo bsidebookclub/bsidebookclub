@@ -276,9 +276,6 @@
     transition: none !important;
     z-index: 100;
   }
-  header.main-header {
-    z-index: -1;
-  }
   .main-header .main-logo + p {
     display: none;
   }
@@ -314,9 +311,9 @@
     width: 40px;
     margin: 0;
   }
-		body div#bookus {
-		width: auto;
-		}
+  body div#bookus {
+    width: auto;
+  }
 
  
   .main-header .nav-button.hovered span:nth-child(1) {
@@ -620,9 +617,7 @@ body div#bookus a {
 	color: grey;
   position: absolute;
 }
-body div#bookus a:hover {
-	content: 'bsidebookclubacappella@gmail.com';
-}
+
 
 /* ANDREW EDITS */
 
