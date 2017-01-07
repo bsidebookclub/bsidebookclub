@@ -751,7 +751,7 @@ body div#bookus a {
     display: none;
   }
   #part-home header .background-wrapper {
-    background: url("/assets/medias/home/juergen-hasssler.jpg") no-repeat center right;
+    background: url("") no-repeat center right;
     background-size: cover;
     width: 80vw;
     height: 80vw;
