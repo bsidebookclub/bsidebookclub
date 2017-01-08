@@ -208,6 +208,8 @@
 
 .main-header .main-nav .social-links a {
 	transition: color 700ms ease 0ms;
+	text-decoration: none;
+	color: #9b9ba4;
 }
 .main-header .main-nav .social-links a:hover {
 	color: black;
