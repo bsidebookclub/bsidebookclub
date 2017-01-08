@@ -187,11 +187,11 @@
   color: #000;
 }
 
-.main-header .main-nav .list li:hover:before,
+/* .main-header .main-nav .list li:hover:before,
 .main-header .main-nav .list li.current:before,
 .main-header .main-nav .list li.active:before {
   opacity: 1;
-}
+} */
 
 .main-header .social-links {
   position: absolute;
