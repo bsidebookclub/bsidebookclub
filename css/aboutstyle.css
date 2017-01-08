@@ -18,7 +18,7 @@
 }
 
 .shade {
-	background: red;
+	background: rgba(136,136,136,.8);
 }
 
 .main-header {
