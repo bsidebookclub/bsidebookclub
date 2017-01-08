@@ -21,7 +21,7 @@
 	background: rgba(136,136,136,.8);
 }
 .shadeText {
-	color: black;	
+	color: black !important;	
 }
 
 .main-header {
