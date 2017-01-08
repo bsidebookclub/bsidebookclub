@@ -20,6 +20,9 @@
 .shade {
 	background: rgba(136,136,136,.8);
 }
+.shadeText {
+	color: black;	
+}
 
 .main-header {
 	 position: fixed;
