@@ -166,8 +166,8 @@
 .main-header .social-links {
   position: absolute;
   bottom: 30px;
-  left: 42px;
-  padding-right: 57px;
+  left: 30px;
+  padding-right: 70px;
   z-index: 3;
   font: 400 18px/30px 'Work Sans', 'Helvetica', sans-serif;
   color: #9b9ba4;
