@@ -51,10 +51,18 @@
   margin: 0;
   padding: 0;
 }
+ canvas.particles-js-canvas-el {
+    z-index: -10;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
 </style>
     
   </head>
-<body>
+<body id="particles-js">
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 
   <!-- SIDE BAR -->
@@ -99,7 +107,7 @@
   
 	
  <div class="ajax-container displayed" id="part-home">
-	 <div id="particles-js">
+	 <div >
 	 
   <header>
     <h1>B-Side Book Club A Cappella emerged from a group of close-knit friends who all shared a love for singing. ♥</h1>
