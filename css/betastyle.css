@@ -406,6 +406,11 @@ body div.sub-text::before {
   /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
   /* Black w/ opacity */
+	position: fixed;
+	top: 0;
+	left: calc(50vw - 150px);
+	z-index: 10000;
+
 }
 
 
@@ -429,9 +434,10 @@ body div.sub-text::before {
   cursor: pointer;
 }
 
-div#myModal {
+/* div#myModal {
     position: fixed;
     top: 0;
     left: calc(50vw - 150px);
     z-index: 10000;
 }
+ */
