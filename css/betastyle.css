@@ -428,3 +428,10 @@ body div.sub-text::before {
   text-decoration: none;
   cursor: pointer;
 }
+
+div#myModal {
+    position: fixed;
+    top: 0;
+    left: calc(50vw - 150px);
+    z-index: 10000;
+}
