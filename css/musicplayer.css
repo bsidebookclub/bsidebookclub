@@ -306,5 +306,11 @@
   .carousel .seek-bar {
     top: 240px;
   }
+	.container .choice .tracks {
+		height: 140px;	
+	}
+	.container .choice {
+		height: 170px;
+	}
 }
 
