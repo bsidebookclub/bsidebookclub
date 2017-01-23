@@ -299,4 +299,12 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 319px){
+  div.modal-content {
+    max-height: 250px;
+  }  
+  .carousel .seek-bar {
+    top: 240px;
+  }
+}
 
