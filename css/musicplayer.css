@@ -299,7 +299,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 319px){
+@media screen and (max-device-width: 319px){
   div.modal-content {
     max-height: 250px;
   }  
