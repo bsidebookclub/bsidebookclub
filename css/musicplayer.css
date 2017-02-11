@@ -1,6 +1,37 @@
-/*MUSIC PLAYER*/
+
+
+.lgContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  background: inherit;
+  transition: all cubic-bezier(.02,1,.32,1) 0.6s;
+/*   transform: translatey(140px); */
+}
+
+.lgContainer:before {
+  content: '';
+  position: absolute;
+  top: 0; left:0; right:0; bottom:0;
+  background: inherit;
+  
+  filter: blur(15px); 
+  -webkit-filter: blur(16px); 
+  -moz-filter: blur(16px);
+  -o-filter: blur(16px);
+  -ms-filter: blur(16px);
+  filter: url(#blur);filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='8');
+}
+
+
+hiddenMusic {
+  
+}
 
 /* SCROLL BAR */
+
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -15,12 +46,15 @@
   background: rgba(150, 150, 150, 0.8);
 }
 
+body {
+  
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
 
 .container {
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 300px;
+  margin: 0 auto;
+  width: 100%;
   -moz-box-shadow: 3px 3px 45px 10px #555;
   -webkit-box-shadow: 3px 3px 45px 10px #555;
   -o-box-shadow: 3px 3px 45px 10px #555;
@@ -28,10 +62,11 @@
 }
 
 .carousel {
-  width: 300px;
-  height: 325px;
+  margin: 0 auto;
+  width: 100%;
+  height: 120px;
   position: relative;
-  background-image: url(http://audeficheux.com/projects/carousel/src/images/background0.png);
+  background-image: url();
   background-size: cover;
   transition: background-image 0.5s ease;
 }
@@ -50,48 +85,48 @@
 
 .carousel .slides .items {
   position: relative;
-  width: 10000px;
+  width: 100000px;
   font-size: 0;
-  padding-left: 37.5px;
+  padding-left: calc(50vw - 50px);
   transition: all ease-out 0.3s;
 }
 
 .carousel .slides .item {
-  margin: 25px 12.5px;
-  width: 200px;
-  height: 300px;
+  
+  margin: 5px 0px;
+  width: 100vw;
+  height: 200px;
   display: inline-block;
-  background-repeat: no-repeat;
 }
 
 .carousel .slides .item .image {
-  height: 200px;
-  width: 200px;
-  -moz-box-shadow: 6px 9px 20px #111;
-  -webkit-box-shadow: 6px 9px 20px #111;
-  -o-box-shadow: 6px 9px 20px #111;
-  box-shadow: 6px 9px 20px #111;
+  height: 100px;
+  width: 100px;
 }
 
 .carousel .slides .item p {
   font-size: 12px;
-  color: white;
+  color: black;
   width: 200px;
   position: absolute;
-  top: 250px;
+  top: 50px;
+  margin-left: -50px;
   text-align: center;
 }
 
 .carousel .slides .item .artist {
   font-weight: 300;
+  transform: translatex(-110px);
   font-size: 16px;
   height: 25px;
+  top: 50px;
 }
 
 .carousel .slides .item .track {
   font-weight: 500;
+  transform: translatex(-110px);
   font-size: 14px;
-  top: 275px;
+  top: 75px;
 }
 
 
@@ -100,8 +135,8 @@
 .carousel .siblings .sibling {
   position: absolute;
   width: 25px;
-  height: 200px;
-  top: 25px;
+  height: 100%;
+  top: 0px;
   background: transparent;
   text-align: center;
   line-height: 40px;
@@ -110,43 +145,45 @@
 
 .carousel .siblings .sibling.prev {
   left: 0px;
+  background-color: blue;
+  opacity: .5;
 }
 
 .carousel .siblings .sibling.next {
   right: 0px;
+  background-color: blue;
+  opacity: .5;
 }
 
 .carousel .siblings .play {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  top: 25px;
-  left: 50px;
-  background-image: url(http://audeficheux.com/projects/carousel/src/images/play.png);
-  background-repeat: no-repeat;
+  position: absolute;
+  background-color: black;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  top: 5px;
+  left: calc(50vw - 50px);
   background-position: center;
   text-align: center;
   line-height: 40px;
   text-decoration: none;
-  transition: all 0.8s ease;
+  transition: all 0.4s ease;
+  
 }
 
 .carousel .siblings .play.invisible {
   background-image: none;
-  transition: all 0.8s ease;
+  transition: all 0.4s ease;
 }
 
-.carousel .siblings .play.invisible:hover {
-  background-image: url(http://audeficheux.com/projects/carousel/src/images/pause.png);
-  ;
-}
 
 
 /*Seek Bar */
 
 .carousel .seek-bar {
   position: absolute;
-  top: 315px;
+  top: -10px;
   width: 100%;
   height: 10px;
   background-color: rgba(0, 0, 0, 0.2);
@@ -176,7 +213,7 @@
 
 /* SONG LIST */
 
-.container .choice {
+ .container .choice {
   width: 300px;
   height: 200px;
   background-color: white;
@@ -257,26 +294,15 @@
 .credits a {
   text-decoration: none;
   color: black;
-}
+} 
 
+.choice {
+  display: none;
+}
 
 /* The Modal (background) */
 
-.modal {
-  display: none;
-  /* Hidden by default */
-  z-index: 1;
-  /* Sit on top */
-  background-color: rgb(0, 0, 0);
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
-	position: fixed;
-	top: 0;
-	left: calc(50vw - 150px);
-	z-index: 10000;
 
-}
 
 
 /* The Close Button */
@@ -297,20 +323,80 @@
   color: #000;
   text-decoration: none;
   cursor: pointer;
+  transition: all ease-out 0.125s;
 }
 
-@media screen and (max-device-width: 325px){
+span.btnLines {
+  position: absolute;
+  display: block;
+  background-color: white;
+  width: 40px;
+  height: 3px;
+  border-radius: 90px;
+  transition: all ease-out 0.125s;
+}
+span.lineOne {
+  width: 70px;
+  top:32%;
+  left: 26%;
+  transform: rotate(25deg);
+  transition: all ease-out 0.125s;
+}
+span.line2 {
+  width: 59px;
+  top:46%;
+  left: 0%;
+  transform: rotate(90deg);
+  transition: all ease-out 0.125s;
+}
+span.line3 {
+  width: 70px;
+  top:60%;
+  left: 26%;
+  transform: rotate(-25deg);
+  transition: all ease-out 0.125s;
+}
+
+.isPaused {
+  transform: scale(1.05);
+  transform: rotate(360deg);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+  transition: all ease-out 0.125s;
+
+}
+
+.spn1P {
+  
+  width: 60% !important;
+  height: 5px !important;
+  left: 30% !important;
+  top:  calc(50% - 5px) !important;
+  transform: rotate(90deg) !important;
+}
+
+.spn2P {
+  width: 0px !important;
+}
+
+.spn3P {
+  width: 60% !important;
+  height: 5px !important;
+  top: calc(50% - 5px) !important;
+  left: 6px !important;
+  transform: rotate(-90deg) !important;
+}
+svg {
+  height:0;
+  width: 0;
+  position: absolute;
+}
+
+
+/* @media screen and (max-width: 319px){
   div.modal-content {
-    max-height: 250px !important;
+    max-height: 250px;
   }  
   .carousel .seek-bar {
-    top: 240px !important;
+    top: 340px;
   }
-	.container .choice .tracks {
-		height: 140px !important;	
-	}
-	.container .choice {
-		height: 170px !important;
-	}
-}
-
+} */
