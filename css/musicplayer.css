@@ -9,7 +9,6 @@
   background: inherit;
   transition: all cubic-bezier(.02,1,.32,1) 0.6s;
   transform: translatey(140px);
-  display:none;
   z-index: 100;
 }
 
