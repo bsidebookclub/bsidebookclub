@@ -67,9 +67,9 @@ body {
   width: 100%;
   height: 120px;
   position: relative;
-  background-image: url();
+  background: rgba(221,216,216,.64)!important;
   background-size: cover;
-  transition: background-image 0.5s ease;
+  
 }
 
 
