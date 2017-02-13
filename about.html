@@ -517,9 +517,7 @@ Carousel.prototype.go_to = function( index, currentIndex )
 		if (index < 0)
 			index = index + this.count;
 //reactivate this if you want to alternate background img
-		// this.$.carousel.css({
-		// 	"background-image": "url(http://audeficheux.com/projects/carousel/src/images/background" + index + ".png)"
-		// });
+		
 
 		/* Make visible or invisible the speakers*/
 		this.$.speakers[currentIndex].classList.add('invisible');
