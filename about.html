@@ -62,7 +62,7 @@
 		<ul class="list">
 		<li class="current"><a href="#">about us</a></li>
 
-		<li><a href="#">photos</a></li>
+		<li><a class="photoTarget" href="#">photos</a></li>
 
 		<li><a href="#">portland</a></li>
 
@@ -429,6 +429,13 @@ Carousel.prototype.init_events = function (){
     span3.toggleClass('spn3P');
     $('#playBtn').toggleClass('isPaused');
   });
+	
+	$('.photoTarget').on('touch click', function() {
+		var hiddenStuff = $('.ajax-container');
+		
+		hiddenStuff.toggleClass('displayNone');
+		$('.photoTarget').toggleClass('displayShow');
+	});
 
 	/* CHECK WHEN WE PAUSE BY CLICKING ON THE IMAGE */
 	this.$.play.on('click', function(){
