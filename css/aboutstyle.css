@@ -366,6 +366,11 @@
   .main-header .main-nav .list li:nth-child(1) {
     margin-bottom: 0%;
   }
+	.m-p-g__fullscreen {
+		padding-left: 0;
+	}
+	.m-p-g__controls.active {
+		padding-left: 0;
 }
 @-moz-keyframes rotation {
   0% {
@@ -879,6 +884,7 @@ body div#bookus a {
   transition: background 0.25s ease-out, visibility 0.01s 0.5s linear;
   will-change: background, visibility;
   backface-visibility: hidden;
+	padding-left: 80px;
 }
 .m-p-g__fullscreen.active {
   transition: background .25s ease-out, visibility .01s 0s linear;
@@ -921,6 +927,7 @@ body div#bookus a {
 .m-p-g__controls.active {
   opacity: 1;
   visibility: visible;
+	padding-left: 80px;
 }
 .m-p-g__controls-close, .m-p-g__controls-arrow {
   appearance: none;
