@@ -366,11 +366,6 @@
   .main-header .main-nav .list li:nth-child(1) {
     margin-bottom: 0%;
   }
-	.m-p-g__fullscreen {
-		margin-left: 0;
-	}
-	.m-p-g__controls.active {
-		margin-left: 0;
 }
 @-moz-keyframes rotation {
   0% {
@@ -1042,5 +1037,16 @@ body div#bookus a {
     min-width: 0;
     font-size: 14px;
   }
+}
+
+@media screen and (max-width: 768px) {
+	.m-p-g__fullscreen {
+		margin-left: 0;
+		margin-top: 80px;
+	}
+	.m-p-g__controls.active {
+		margin-left: 0;	
+		margin-top: 80px;
+	}
 }
 
