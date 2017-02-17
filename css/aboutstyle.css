@@ -1016,6 +1016,15 @@ body div#bookus a {
   background: rgba(0, 0, 0, 0.12);
 }
 
+.displayNone {
+	display: none !important;	
+}
+
+.displayShow {
+	display: block !important;
+	margin-right: 80px !important;
+}
+
 @media (max-width: 640px) {
   .demo-btn {
     min-width: 0;
