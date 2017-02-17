@@ -276,14 +276,7 @@
 		<div class="m-p-g__fullscreen"></div>
 	</div>
 </div>
-<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/material-photo-gallery.min.js"></script>
-	<script>
-		var elem = document.querySelector('.m-p-g');
-	
-		document.addEventListener('DOMContentLoaded', function() {
-			var gallery = new MaterialPhotoGallery(elem);
-		});
-	</script>
+
 	
 
 <svg version="1.1" xmlns='http://www.w3.org/2000/svg'>
@@ -299,50 +292,16 @@
 	<script src="/js/custom.js"></script>	
 	<script type="text/javascript" src="js/beta.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/material-photo-gallery.min.js"></script>
+	<script>
+		var elem = document.querySelector('.m-p-g');
 	
-<!--script>
+		document.addEventListener('DOMContentLoaded', function() {
+			var gallery = new MaterialPhotoGallery(elem);
+		});
+	</script>
+	
 
-
-  // Get the modal
-  var modal = document.getElementById('myModal');
-  
-  // Get the button that opens the modal
-  var btn = document.getElementById("myBtn");
-  
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
-  
-  // Get the play/pause button
-  
-  var play = document.getElementByClassName("play");
-  
-  var background = document.body;
-  
-
-  // When the user clicks the button, open the modal 
-  btn.onclick = function() {
-  //   modal.style.transition = "ease 15s";
-    modal.style.display = "block";
-		modal.style.transform = "translatey(-140px)";
-   
- }
-  
-  // When the user clicks on <span> (x), close the modal
-   span.onclick = function() { 
-     modal.style.display = "none";
- }
-  
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-      if (event.target == modal) {
-          modal.style.display = "none";
-      }
-  }
-  window.onkeydown = function( event ) {
-    if ( event.keyCode == 27 ) {
-        modal.style.display = "none";
-    }
-    
 };
 <script	-->
 	<script>
