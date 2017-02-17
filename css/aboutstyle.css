@@ -988,16 +988,9 @@ body div#bookus a {
 }
 
 /* DEMO */
-body {
-  background: #fefefe;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  font-family: 'Roboto Mono';
-}
 
-h2 {
+
+#bsidephotos h2 {
   font-weight: 300;
   margin: 4vh 4vw;
   letter-spacing: 3px;
@@ -1005,7 +998,7 @@ h2 {
   text-transform: uppercase;
 }
 
-.demo-btn {
+#bsidephotos .demo-btn {
   display: inline-block;
   margin: 0 2.5px 4vh 2.5px;
   text-decoration: none;
@@ -1017,7 +1010,7 @@ h2 {
   border-radius: 6px;
 }
 
-.demo-btn:hover {
+#bsidephotos .demo-btn:hover {
   background: rgba(0, 0, 0, 0.12);
 }
 
