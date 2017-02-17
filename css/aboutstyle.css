@@ -825,11 +825,14 @@ body div#bookus a {
     MATERIAL PHOTO GALLERY
 \*------------------------------------*/
 
+.bsidePhotos {
+	display: none;	
+}
 
 .m-p-g {
   max-width: 100%;
   margin: 0 auto;
-	display:none;
+
 }
 .m-p-g__thumbs-img {
   margin: 0;
@@ -928,7 +931,7 @@ body div#bookus a {
 }
 .m-p-g__controls-arrow {
   position: absolute;
-  z-index: 1;
+  z-index: 201;
   top: 0;
   width: 20%;
   height: 100vh;
@@ -955,7 +958,7 @@ body div#bookus a {
   position: absolute;
   top: 3vh;
   left: 3vw;
-  z-index: 5;
+  z-index: 205;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
