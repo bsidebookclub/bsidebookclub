@@ -992,8 +992,7 @@ body div#bookus a {
 
 /* DEMO */
 
-
-#bsidephotos h2 {
+.m-p-g h2 {
   font-weight: 300;
   margin: 4vh 4vw;
   letter-spacing: 3px;
@@ -1001,7 +1000,7 @@ body div#bookus a {
   text-transform: uppercase;
 }
 
-#bsidephotos .demo-btn {
+ .demo-btn {
   display: inline-block;
   margin: 0 2.5px 4vh 2.5px;
   text-decoration: none;
