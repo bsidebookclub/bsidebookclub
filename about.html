@@ -88,7 +88,7 @@
   
 	
  <div class="ajax-container displayed" id="part-home">
-	 <div >
+	 <div class="photoToggle">
 	 
   <header>
     <h1>B-Side Book Club A Cappella emerged from a group of close-knit friends who all shared a love for singing. ♥</h1>
@@ -251,8 +251,8 @@
     <audio class="music"><source src="https://raw.githubusercontent.com/andrewbiang888/bsidebookclub/master/media/0.mp3" type="audio/mpeg"> Your browser doesn't support audio API</audio>
 
   </div>
-</div>
-	<div id="bsidephotos" class="bsidePhotos">
+		
+<div id="bsidephotos" class="bsidePhotos">
 	<div class="m-p-g">
 		<div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
 			<img src="https://rawgit.com/andrewbiang888/bsidebookclub/master/img/12764650_692600750880047_4790987660545059422_o.jpg" data-full="https://rawgit.com/andrewbiang888/bsidebookclub/master/img/12764650_692600750880047_4790987660545059422_o.jpg" class="m-p-g__thumbs-img" />
@@ -271,10 +271,12 @@
 			<img src="https://cdn.rawgit.com/andrewbiang888/bsidebookclub/82e8d864/img/IMG_2331.JPG" data-full="https://cdn.rawgit.com/andrewbiang888/bsidebookclub/82e8d864/img/IMG_2331.JPG" class="m-p-g__thumbs-img" />
 			<img src="https://cdn.rawgit.com/andrewbiang888/bsidebookclub/82e8d864/img/IMG_3715.jpg" data-full="https://cdn.rawgit.com/andrewbiang888/bsidebookclub/82e8d864/img/IMG_3715.jpg" class="m-p-g__thumbs-img" />
 		</div>
-
 		<div class="m-p-g__fullscreen"></div>
 	</div>
 </div>
+		
+</div>
+	
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/material-photo-gallery.min.js"></script>
 	<script>
 		var elem = document.querySelector('.m-p-g');
@@ -431,7 +433,7 @@ Carousel.prototype.init_events = function (){
   });
 	
 	$('.photoTarget').on('touch click', function() {
-		var hiddenStuff = $('.ajax-container');
+		var hiddenStuff = $('.photoToggle');
 		
 		hiddenStuff.toggleClass('displayNone');
 		$('.bsidePhotos').toggleClass('displayShow');
