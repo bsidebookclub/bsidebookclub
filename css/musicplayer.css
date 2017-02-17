@@ -386,11 +386,7 @@ span.line3 {
   left: 6px !important;
   transform: rotate(-90deg) !important;
 }
-svg {
-  height:0;
-  width: 0;
-  position: absolute;
-}
+
 
 
 /* @media screen and (max-width: 319px){
