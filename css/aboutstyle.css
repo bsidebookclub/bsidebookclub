@@ -824,9 +824,12 @@ body div#bookus a {
 /*------------------------------------*\
     MATERIAL PHOTO GALLERY
 \*------------------------------------*/
+
+
 .m-p-g {
   max-width: 100%;
   margin: 0 auto;
+	display:none;
 }
 .m-p-g__thumbs-img {
   margin: 0;
