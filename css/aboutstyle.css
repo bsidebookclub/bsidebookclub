@@ -951,16 +951,15 @@ body div#bookus a {
   opacity: 1;
 }
 .m-p-g__controls-arrow--prev {
-  left: 0;
+  left: 80px;
   padding-left: 3vw;
   justify-content: flex-start;
-	margin-left: 80px;
+	
 }
 .m-p-g__controls-arrow--next {
-  right: 0;
+  right: 10px;
   padding-right: 3vw;
   justify-content: flex-end;
-	margin-right: 80px;
 }
 .m-p-g__controls-close {
   position: absolute;
@@ -1053,12 +1052,10 @@ body div#bookus a {
 		left: 3vw;	
 	}
 	.m-p-g__controls-arrow--next {
-		margin-right: 0px;	
-		margin-top: 80px;
+		right: 0;
 	}
 	.m-p-g__controls-arrow--prev {
-		margin-left: 0;
-		margin-top: 80px;
+		left: 0;
 	}
 }
 
