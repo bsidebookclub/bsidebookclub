@@ -1042,7 +1042,7 @@ body div#bookus a {
   }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 	.m-p-g__fullscreen.active {
 		margin-left: 0px;
 		margin-top: 80px;
@@ -1058,5 +1058,5 @@ body div#bookus a {
 	.m-p-g__controls-arrow--prev {
 		left: 0;
 	}
-}
+} */
 
