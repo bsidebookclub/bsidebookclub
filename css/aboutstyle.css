@@ -1042,12 +1042,12 @@ body div#bookus a {
   }
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.m-p-g__fullscreen.active {
 		margin-left: 0px;
-		margin-top: 80px;
-		width: 100%;
-	}
+/* 		margin-top: 80px;
+		width: 100%; */
+/* 	}
 	.m-p-g__controls-close {
 		left: 3vw;
 		top:80px;
@@ -1057,6 +1057,6 @@ body div#bookus a {
 	}
 	.m-p-g__controls-arrow--prev {
 		left: 0;
-	}
-} */
+	} */
+}
 
