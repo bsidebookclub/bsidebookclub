@@ -930,6 +930,7 @@ body div#bookus a {
   appearance: none;
   border: none;
   background: none;
+	margin-left: 80px;
 }
 .m-p-g__controls-close:focus, .m-p-g__controls-arrow:focus {
   outline: none;
