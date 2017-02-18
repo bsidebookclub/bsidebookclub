@@ -930,7 +930,7 @@ body div#bookus a {
   appearance: none;
   border: none;
   background: none;
-	margin-left: 80px;
+	
 }
 .m-p-g__controls-close:focus, .m-p-g__controls-arrow:focus {
   outline: none;
@@ -965,7 +965,7 @@ body div#bookus a {
 .m-p-g__controls-close {
   position: absolute;
   top: 3vh;
-  left: 3vw;
+  left: 80px;
   z-index: 205;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
@@ -1048,6 +1048,9 @@ body div#bookus a {
 		margin-left: 0px;
 		margin-top: 80px;
 		width: 100%;
+	}
+	.m-p-g__controls-close {
+		left: 3vw;	
 	}
 	.m-p-g__controls-arrow--next {
 		margin-right: 0px;	
