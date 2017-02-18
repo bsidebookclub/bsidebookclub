@@ -924,6 +924,7 @@ body div#bookus a {
   opacity: 1;
   visibility: visible;
 	margin-left: 80px;
+	margin-right: 80px;
 }
 .m-p-g__controls-close, .m-p-g__controls-arrow {
   appearance: none;
