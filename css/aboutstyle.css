@@ -886,7 +886,7 @@ body div#bookus a {
   visibility: visible;
   background: rgba(0, 0, 0, 0.95);
 	margin-left: 80px;
-	width: calc(100vw - 120px);
+	
 }
 .m-p-g__fullscreen-img {
   pointer-events: none;
