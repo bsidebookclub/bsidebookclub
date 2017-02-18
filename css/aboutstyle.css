@@ -886,6 +886,7 @@ body div#bookus a {
   visibility: visible;
   background: rgba(0, 0, 0, 0.95);
 	margin-left: 80px;
+	width: calc(100vw - 80px);
 }
 .m-p-g__fullscreen-img {
   pointer-events: none;
@@ -923,8 +924,7 @@ body div#bookus a {
 .m-p-g__controls.active {
   opacity: 1;
   visibility: visible;
-	margin-left: 80px;
-	margin-right: 80px;
+
 }
 .m-p-g__controls-close, .m-p-g__controls-arrow {
   appearance: none;
@@ -953,11 +953,13 @@ body div#bookus a {
   left: 0;
   padding-left: 3vw;
   justify-content: flex-start;
+	margin-left: 80px;
 }
 .m-p-g__controls-arrow--next {
   right: 0;
   padding-right: 3vw;
   justify-content: flex-end;
+	margin-right: 80px;
 }
 .m-p-g__controls-close {
   position: absolute;
@@ -1044,9 +1046,14 @@ body div#bookus a {
 	.m-p-g__fullscreen.active {
 		margin-left: 0px;
 		margin-top: 80px;
+		width: 100%;
 	}
-	.m-p-g__controls.active {
-		margin-left: 0px;	
+	.m-p-g__controls-arrow--next {
+		margin-right: 0px;	
+		margin-top: 80px;
+	}
+	.m-p-g__controls-arrow--prev {
+		margin-left: 0;
 		margin-top: 80px;
 	}
 }
