@@ -1045,13 +1045,7 @@ body div#bookus a {
 @media screen and (max-width: 768px) {
 	.m-p-g__fullscreen.active {
 		margin-left: 0px;
-/* 		margin-top: 80px;
-		width: 100%; */
-/* 	}
-	.m-p-g__controls-close {
-		left: 3vw;
-		top:80px;
-	}*/
+	}
 	.m-p-g__controls-arrow--next {
 		right: 0;
 	}
