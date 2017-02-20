@@ -306,7 +306,7 @@ body {
 .close {
   display: block;
   position: absolute;
-  top: -50;
+  top: -50px;
   left: 0;
   color: #aaaaaa;
   font-size: 48px;
