@@ -382,7 +382,11 @@ span.line3 {
   transform: rotate(-90deg) !important;
 }
 
-
+.material-icons i {
+  font-size: 60px;
+  margin: auto;
+  line-height: 165%;
+}
 
 /* @media screen and (max-width: 319px){
   div.modal-content {
