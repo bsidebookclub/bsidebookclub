@@ -1048,13 +1048,11 @@ body div#bookus a {
 div.item p.artist:after {
     content: '';
     display: block;
-    position: absolute;
-    bottom: -5px;
-    left: 0;
+		margin: 0 auto;
     height: 18px;
-    width: 100%;
+    width: 50%;
     background: #edeafd;
-    z-index: 1;
+    z-index: -1;
 }
 
 @media (max-width: 640px) {
