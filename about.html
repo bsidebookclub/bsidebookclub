@@ -303,7 +303,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
 
-	<script>
+<!-- 	<script>
   // Get the modal
   var modal = document.getElementById('myModal');
   
@@ -338,7 +338,7 @@
     }
 };
 	
-</script>
+</script> -->
 
 <script>
 	$( document ).ready(function() {
@@ -429,11 +429,9 @@ Carousel.prototype.init_events = function (){
     $('#playBtn').toggleClass('isPaused');
   });
 	
-// 	$('#myBtn').on('touch click', function() {
-// 		$('#modal').toggle(function() {
-// 			.css("transform","translatey(0px)");
-// 		});
-// 	});
+	$('#myBtn').on('touch click', function() {
+		$('#myModal').toggleClass("alternate");
+	});
 	
 	$('.photoTarget').on('touch click', function() {
 		var hiddenStuff = $('.photoToggle');
