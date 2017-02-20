@@ -1045,6 +1045,18 @@ body div#bookus a {
 	margin-right: 80px !important;
 }
 
+div.item p.artist:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 18px;
+    width: 100%;
+    background: #edeafd;
+    z-index: 1;
+}
+
 @media (max-width: 640px) {
   .demo-btn {
     min-width: 0;
