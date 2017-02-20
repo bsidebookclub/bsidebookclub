@@ -962,6 +962,15 @@ body div#bookus a {
   justify-content: flex-end;
 	width: 20vw;
 }
+
+.carousel .siblings .sibling.next {
+	width: 20vw;
+}
+
+.carousel .siblings .sibling.prev {
+	width: 20vw;
+}
+
 .m-p-g__controls-close {
   position: absolute;
   top: 3vh;
