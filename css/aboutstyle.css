@@ -954,12 +954,13 @@ body div#bookus a {
   left: 80px;
   padding-left: 3vw;
   justify-content: flex-start;
-	
+	width: 20vw;
 }
 .m-p-g__controls-arrow--next {
   right: 10px;
   padding-right: 3vw;
   justify-content: flex-end;
+	width: 20vw;
 }
 .m-p-g__controls-close {
   position: absolute;
