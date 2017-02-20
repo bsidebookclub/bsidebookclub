@@ -306,13 +306,17 @@ body {
 .close {
   display: block;
   position: absolute;
-  top: -50px;
+  top: -60px;
   left: 0;
   color: #aaaaaa;
   font-size: 48px;
   line-height:28px;
   font-weight: bold;
   z-index: 2; 
+}
+
+.close .material-icons {
+  font-size: 35px; 
 }
 
 .close:hover {
