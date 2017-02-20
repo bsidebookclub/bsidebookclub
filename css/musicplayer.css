@@ -145,14 +145,10 @@ body {
 
 .carousel .siblings .sibling.prev {
   left: 0px;
-  background-color: blue;
-  opacity: .5;
 }
 
 .carousel .siblings .sibling.next {
   right: 0px;
-  background-color: blue;
-  opacity: .5;
 }
 
 .carousel .siblings .play {
