@@ -382,7 +382,7 @@ span.line3 {
   transform: rotate(-90deg) !important;
 }
 
- .material-icons {
+ .sibling .material-icons {
   font-size: 60px !important;
   margin: auto !important;
   line-height: 165%!important;
