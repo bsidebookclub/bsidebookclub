@@ -382,10 +382,10 @@ span.line3 {
   transform: rotate(-90deg) !important;
 }
 
- a.sibling i.material-icons {
-  font-size: 60px;
-  margin: auto;
-  line-height: 165%;
+ .material-icons {
+  font-size: 60px !important;
+  margin: auto !important;
+  line-height: 165%!important;
 }
 
 /* @media screen and (max-width: 319px){
