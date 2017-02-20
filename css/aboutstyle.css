@@ -1051,8 +1051,9 @@ div.item p.artist:after {
 		margin: 0 auto;
     height: 18px;
     width: 50%;
-    background: #edeafd;
+    background: rgba(237,234,253,.5);
     z-index: -1;
+		margin-top: -20px;
 }
 
 @media (max-width: 640px) {
