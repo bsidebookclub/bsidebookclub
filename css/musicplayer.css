@@ -1,4 +1,7 @@
 
+.alternate {
+   transform: translatey(0px); 
+}
 
 .lgContainer {
   position: fixed;
