@@ -1063,7 +1063,7 @@ p#ourMusic {
 	transition: transform 600ms ease;
 }
 p#ourMusic:hover {
-    transform: scale(1.2)translate(-30px,-30px)rotate(-50deg);
+    transform: scale(1.2)translate(-30px,-60px)rotate(-50deg);
 }
 
 
