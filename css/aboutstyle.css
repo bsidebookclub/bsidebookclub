@@ -1056,6 +1056,12 @@ div.item p.artist:after {
 		margin-top: -20px;
 }
 
+p#ourMusic {
+	display: inline-block;
+	font-size: 12px;
+}
+
+
 @media (max-width: 640px) {
   .demo-btn {
     min-width: 0;
