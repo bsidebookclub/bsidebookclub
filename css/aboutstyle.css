@@ -1060,6 +1060,10 @@ p#ourMusic {
 	display: inline-block;
 	font-size: 20px;
 	transform: translateY(-10px);
+	transition: transform 600ms ease;
+}
+p#ourMusic:hover {
+    transform: scale(1.2)translate(-30px,-30px)rotate(-50deg);
 }
 
 
