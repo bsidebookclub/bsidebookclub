@@ -65,9 +65,9 @@
 		<ul class="list">
 		<li class="current"><a href="#">about us</a></li>
 
-		<li><a class="photoTarget" href="#">photos</a></li>
+		<li><a class="photoTarget" href="#bsidephotos">photos</a></li>
 
-		<li><a href="#">portland</a></li>
+		<!--li><a href="#">portland</a></li-->
 
 		</ul>
 
@@ -396,12 +396,12 @@ Carousel.prototype.init_events = function (){
 		$('#myModal').toggleClass("alternate");
 	});
 	
-	$('.photoTarget').on('touch click', function() {
-		var hiddenStuff = $('.photoToggle');
+// 	$('.photoTarget').on('touch click', function() {
+// 		var hiddenStuff = $('.photoToggle');
 		
-		hiddenStuff.toggleClass('displayNone');
-		$('.bsidePhotos').toggleClass('displayShow');
-	});
+// 		hiddenStuff.toggleClass('displayNone');
+// 		$('.bsidePhotos').toggleClass('displayShow');
+// 	});
 
 	/* CHECK WHEN WE PAUSE BY CLICKING ON THE IMAGE */
 	this.$.play.on('click', function(){
