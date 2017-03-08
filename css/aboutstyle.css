@@ -1054,11 +1054,8 @@ div.item p.artist:after {
 p#ourMusic {
 	display: inline-block;
 	font-size: 20px;
-	transform: translateY(-10px);
+	transform: translate(-73px,-78px) rotate(-90deg);
 	transition: transform 600ms ease;
-}
-p#ourMusic:hover {
-    transform: scale(1.2)translate(-30px,-60px)rotate(-50deg);
 }
 
 
