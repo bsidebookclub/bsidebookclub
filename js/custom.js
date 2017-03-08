@@ -1,4 +1,3 @@
-$("div.nav-button.popin-button-header").on("click", function() {
-  $( "div.ajax-container" ).toggleClass( "shade" );
-  $("div.ajax-container header h1").toggleClass("shadeText");
+$("dic.mask.mask-outer ul.list li").on("click", function() {
+  $('.main-header popin-header animation-start animation-start-timeout displayed').removeClass('displayed');
 });
