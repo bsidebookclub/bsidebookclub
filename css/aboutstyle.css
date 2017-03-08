@@ -422,7 +422,7 @@
   transform-origin: 0% 0%;
   transform: rotate(90deg) translateY(-100%);
 }
-#part-home header img {
+/* #part-home header img {
   display: block;
   position: absolute;
   max-width: calc(100% - 100px);
@@ -432,9 +432,9 @@
   z-index: 1;
   left: 50%;
   transform: translateX(-50%);
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
-}
+  -webkit-filter: grayscale(100%);  
+} */
 #part-home .contact {
   position: absolute;
   top: 0;
@@ -697,13 +697,13 @@ body div#bookus a {
     line-height: 1.5;
     padding: 120px 20px 0 17%;
   }
-  #part-home header img {
+/*   #part-home header img {
     max-width: none;
     height: 100%;
     left: auto;
     right: 0;
     transform: none;
-  }
+  } */
   #part-home header .hero-container {
     height: auto !important;
     width: auto;
