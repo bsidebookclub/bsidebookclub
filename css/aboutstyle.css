@@ -324,9 +324,6 @@
     margin: 80px 0 0 60px;
     transform: none;
   }
-  .main-header .main-nav .list li:nth-child(1) {
-    margin-bottom: 30px;
-  }
   .main-header {
     transform: translateX(0);
   }
