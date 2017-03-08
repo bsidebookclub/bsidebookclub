@@ -166,6 +166,7 @@
     -webkit-transform: translateX(-1px) rotate(0);
     transform: translateX(-1px) rotate(0);
   }
+}
 
 .nav-button {
 	height: 58px;
