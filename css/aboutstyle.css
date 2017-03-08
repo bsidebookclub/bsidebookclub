@@ -49,8 +49,8 @@
 	position: absolute;
 	top: 30px;
 	right: 5px;
-	width: 72px;
-	height: 72px;
+	width: 80px;
+	height: 80px;
 	z-index: 3;
 }
 
@@ -271,7 +271,7 @@
   }
   .main-header .main-logo {
     top: 25px;
-    left: 20px;
+    left: 11px;
     right: auto;
     font: 700 45px/36px 'NoeDisplay', 'Times', serif;
   }
