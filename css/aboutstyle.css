@@ -435,6 +435,22 @@
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);  
 } */
+
+img#bsidetitletext {
+    max-width: 980px;
+    display: block;
+    width: 70%;
+    height: auto;
+    padding: 20px 100px;
+    margin: auto;
+    transition: all 1500ms cubic-bezier(0.19, 1, 0.22, 1) 1000ms, opacity 1000ms cubic-bezier(0.19, 1, 0.22, 1) 1000ms;
+}
+@media screen and (max-width: 768px) {
+#part-home header img#bsidetitletext {
+		transform: translateX(-20px);
+	}
+}
+
 #part-home .contact {
   position: absolute;
   top: 0;
