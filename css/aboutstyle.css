@@ -1057,6 +1057,9 @@ p#ourMusic {
 	transform: translate(-73px,-78px) rotate(-90deg);
 	transition: transform 600ms ease;
 }
+p#ourMusic:hover {
+	color: #fdd4bd;
+}
 
 
 @media (max-width: 640px) {
