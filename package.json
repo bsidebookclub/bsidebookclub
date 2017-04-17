@@ -1,0 +1,26 @@
+{
+  "name": "bsidebookclub",
+  "private": true,
+  "version": "1.0.0",
+  "description": "B-Side Book Club is a Portland, Oregon _a capella_ group. This is their website.",
+  "main": "compileImages.js",
+  "scripts": {
+    "compileImages": "node compileImages.js"
+  },
+  "pre-commit": [
+    "compileImages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewbiang888/bsidebookclub.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/andrewbiang888/bsidebookclub/issues"
+  },
+  "homepage": "https://github.com/andrewbiang888/bsidebookclub#readme",
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}
