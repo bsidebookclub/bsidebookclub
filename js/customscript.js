@@ -2,77 +2,77 @@
 var bsideMembers = [{
   fname: 'Adriana',
   lname: 'Hernandez',
-  image: '/img/profileImg/Adriana%-%Soprano.JPG',
+  image: '/img/profileImg/Adriana%20-%20Soprano.JPG',
   voicepart: 'Soprano'
 }, {
   fname: 'Emerald',
   lname: 'Kaitryn',
-  image: '',
+  image: '/img/profileImg/Emerald%20-%20Soprano.JPG',
   voicepart: 'Soprano'
 }, {  
   fname: 'Sierra',
   lname: 'Bertolone-Smith',
-  image: '',
+  image: '/img/profileImg/Sierra%20-%20Soprano.jpg',
   voicepart: 'Soprano'
 }, {
   fname: 'Amy',
   lname: 'Waters',
-  image: '',
+  image: '/img/profileImg/Amy%20-%20Soprano.jpg',
   voicepart: 'Soprano' 
 }, {
   fname: 'Alison',
   lname: 'Noe',
-  image: '',
+  image: '/img/profileImg/Alison%20-%20Soprano.jpg',
   voicepart: 'Soprano' 
 }, {
   fname: 'Kushi',
   lname: 'Beauchamp',
-  image: '',
+  image: '/img/profileImg/Kushi%20-%20Alto.jpg',
   voicepart: 'Alto' 
 }, {
   fname: 'Siani',
   lname: 'Grace',
-  image: '',
+  image: '/img/profileImg/Siani%20-%20Alto.PNG',
   voicepart: 'Alto' 
 }, {
   fname: 'Charlie',
   lname: 'Best',
-  image: '',
+  image: '/img/profileImg/Charlie%20-%20Tenor.jpg',
   voicepart: 'Tenor & Alto' 
 }, {
   fname: 'Louis',
   lname: 'Umbarger',
-  image: '',
+  image: '/img/profileImg/Louis%20-%20Tenor.jpg',
   voicepart: 'Tenor' 
 }, {
   fname: 'Kimo',
   lname: 'Camat',
-  image: '',
+  image: '/img/profileImg/Kimo%20-%20Tenor.jpg',
   voicepart: 'Tenor' 
 }, {
   fname: 'Mason',
   lname: 'Wordell',
-  image: '',
+  image: '/img/profileImg/Mason%20-%20Bass.jpg',
   voicepart: 'Bass & Tenor' 
 }, {
   fname: 'Robert',
   lname: 'Pirtle',
-  image: '',
+  image: '/img/profileImg/pirtle.jpg',
   voicepart: 'Bass & Tenor' 
 }, {
   fname: 'Ted',
   lname: 'Jack',
-  image: '',
+  image: '/img/profileImg/Ted%20-%20Bass.jpg',
   voicepart: 'Bass' 
 }, {
   fname: 'Andy',
   lname: 'Erickson',
-  image: '',
+  image: '/img/profileImg/Andy%20-%20Bass.jpg',
   voicepart: 'Bass' 
 }, {
   fname: 'Sam',
   lname: 'Wellander',
-  image: '',
+  image: '/img/profileImg/Sam%20-%20Bass.jpg',
   voicepart: 'Bass' 
 }]
 
