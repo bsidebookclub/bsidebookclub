@@ -2,7 +2,7 @@
 var bsideMembers = [{
   fname: 'Adriana',
   lname: 'Hernandez',
-  image: '//scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/14264927_1198730703506419_792765636242202081_n.jpg?oh=9f1f079ed641fc39454e2a72edecb54a&oe=596EF2CB',
+  image: '/img/profileImg/Adriana%-%Soprano.JPG',
   voicepart: 'Soprano'
 }, {
   fname: 'Emerald',
