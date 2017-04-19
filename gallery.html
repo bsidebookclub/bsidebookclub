@@ -88,11 +88,12 @@
       <h1 class="center">Photos of the club</h1>
 <!--       IMAGE GALLERY WITH VUE -->
       <div id="bsidephotos" class="bsidePhotos">
-        <h1 id="bimgTitle">Photos of Us</h1>
         <div class="m-p-g">
-          <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350" v-for="image in imageGallery">
+		<div class="row" v-for="image in imageGallery">
+          <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
             <img class="" :src="imageGallery" class="m-p-g__thumbs-img" >          
           </div>
+		</div>
           <div class="m-p-g__fullscreen"></div>
         </div>
       </div>    
