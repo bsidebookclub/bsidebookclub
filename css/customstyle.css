@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+nav {
+  background-color: rgba(253, 253, 255, 0.95);
+  text-align: center !important;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+.brand-logo {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.logodiv {
+  display: block;
+  height: 100%;
+  padding-bottom: 10px;
+  background-color: rgba(253, 253, 255, 0.95);
+}
+
+.logodiv img {
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.svglogo {
+  width: 98%;
+  max-width: 125px;
+}
+
+.textlogo {
+  width: 90%;
+  max-width: 418px;
+}
+
+nav ul {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  float: none;
+  display: inline !important;
+}
+
+nav ul li {
+  display: inline;
+  float: none;
+}
+
+nav ul li a {
+  color: black;
+  display: inline-block !important;
+}
+
+.homeImg {
+  /*   border-radius: 6px; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li a,
+a {
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-kerning: 1.2;
+}
+
+.alertText {
+  font-size: 18px;
+}
+
+.marginCenter {
+  margin: 0 auto;
+}
+
+nav {
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.alertBarPad {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.thinText {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.memberImageFrame {
+  max-height: 300px;
+  overflow: hidden;
+  max-width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.memberImage {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  /*   background-color: rgba(253, 253, 255, 0.95) !important; */
+  color: black !important;
+}
+
+.socialIcons {
+  font-size: 30px;
+  max-width: 425px;
+  margin: auto auto !important;
+}
+
+a,
+i {
+  transition: all .25s ease-in-out .1s;
+}
+
+i.fa.fa-calendar {
+  transform: translate(-25px, -31px);
+  font-size: 34px;
+}
+
+footer a:hover,
+footer i:hover {
+  color: #FDD4BD !important;
+}
+
+.customBtn {
+  margin: 30px auto;
+}
+
+.activated {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 448px) {
+  nav li:nth-child(3):after {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
