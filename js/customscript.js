@@ -85,7 +85,7 @@ var bsidevue = new Vue({
 
 
 // IMAGE GALLERY PAGE
-var url = '/images.json';
+var url = '../images.json';
 var req = new XMLHttpRequest();
 req.onreadystatechange = function() {
   //do stuff here
