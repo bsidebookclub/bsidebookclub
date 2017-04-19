@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="keywords" content="B-Side Book CLub, A Cappella, acappella, Portland Acappella, bside book club">
+  <meta name="description" content="Portland Oregon A Cappella Group">
+
+  <title>B-Side Book Club | An A Cappella Group</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="img/bside-logo.svg">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="img/bside-logo.svg">
+
+  <meta name="robots" content="noodp" />
+  <link rel="canonical" href="http://bsidebookclub.com/" />
+  <link rel="icon" href="img/bside-logo.svg" sizes="32x32" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+  <!--   Social -->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="B-Side Book Club: An A Cappella Group">
+  <meta property="og:description" content="Portland Oregon A Cappella Group">
+  <meta property="og:image" content="img/bside-logo.svg">
+  <meta property="og:url" content="http://bsidebookclub.com/">
+  <meta property="og:site_name" content="B-Side Book Club A Cappella">
+
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+
+
+  <link rel="stylesheet" media="screen" href="/css/customstyle.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://unpkg.com/vue"></script>
+
+  <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <![endif]-->
+
+
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-89573348-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head>
+
+<body>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <a href="index.html" class="brand-logo center">
+    <div class="logodiv">
+      <img class="svglogo" src="/img/bside-logo.svg">
+      <img class="textlogo" src="/img/bsidetitletext.svg">
+    </div>
+  </a>
+  <nav>
+    <div class="nav-wrapper">
+      <ul id="nav" class="">
+        <li><a href="index.html" class="" data-position="bottom" data-delay="50" data-tooltip="Beam me home Scotty!">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="ourmusic.html">Our Music</a></li>
+        <li><a class="activated" href="#">Gallery</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+
+      </ul>
+    </div>
+  </nav>
+  <div class="container" id="bsideImageGallery">
+    <div class="row">
+      <h1 class="center">Photos of the club</h1>
+<!--       IMAGE GALLERY WITH VUE -->
+      <div id="bsidephotos" class="bsidePhotos">
+        <h1 id="bimgTitle">Photos of Us</h1>
+        <div class="m-p-g">
+          <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350" v-for="image in imageGallery">
+            <img class="" :src="imageGallery">          
+          </div>
+          <div class="m-p-g__fullscreen"></div>
+        </div>
+      </div>    
+    </div>
+  </div>
+  <footer class="page-footer grey darken-4">
+    <div class="container">
+      <div class="row">
+        <!--               <div class="col l6 s12 center"> -->
+        <div class="col s12 center">
+          <h5 class="white-text">B-Side Book Club A Cappella</h5>
+          <p class="white-text">Portland, Oregon | <a class="white-text" href="#!">Contact Us</a></p>
+          <p class="white-text"><a class="white-text" href="mailto:bsidebookclubacappella@gmail.com">bsidebookclubacappella@gmail.com</a> | Tel. <a href="tel:9713191325" class="white-text">(971) 319-1325</a></p>
+          <div class="row socialIcons">
+            <a href="https://www.facebook.com/bsidebookclub/"><i class="fa fa-facebook col s4 white-text" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/bsidebookclub/"><i class="fa fa-instagram col s4 white-text" aria-hidden="true"></i></a>
+            <a href="https://soundcloud.com/bsidebookclub"><i class="fa fa-soundcloud col s4 white-text" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <!--               <div class="col l4 offset-l2 s12 center">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="white-text" href="#!">Link 1</a></li>
+                  <li><a class="white-text" href="#!">Link 2</a></li>
+                  <li><a class="white-text" href="#!">Link 3</a></li>
+                  <li><a class="white-text" href="#!">Link 4</a></li>
+                </ul>
+              </div> -->
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container black-text">
+        © 2016 Copyright B-Side Book Club
+      </div>
+    </div>
+  </footer>
+
+	<script>
+		var elem = document.querySelector('.m-p-g');
+		document.addEventListener('DOMContentLoaded', function() {
+			var gallery = new MaterialPhotoGallery(elem);
+		});
+	</script>
+	<script type="text/javascript" src="https://rawgit.com/ettrics/material-photo-gallery/master/dist/js/material-photo-gallery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+  <script src="/js/customscript.js"></script>
+
+</body>
+
+</html>
