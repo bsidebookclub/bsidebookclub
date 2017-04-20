@@ -2,78 +2,78 @@
 var bsideMembers = [{
   fname: 'Adriana',
   lname: 'Hernandez',
-  image: '/img/profileImg/Adriana%20-%20Soprano.JPG',
+  image: 'img/profileImg/Adriana%20-%20Soprano.JPG',
   voicepart: 'Soprano'
 }, {
   fname: 'Emerald',
   lname: 'Kaitryn',
-  image: '/img/profileImg/Emerald%20-%20Soprano.JPG',
+  image: 'img/profileImg/Emerald%20-%20Soprano.JPG',
   voicepart: 'Soprano'
-}, {  
+}, {
   fname: 'Sierra',
   lname: 'Bertolone-Smith',
-  image: '/img/profileImg/Sierra%20-%20Soprano.jpg',
+  image: 'img/profileImg/Sierra%20-%20Soprano.jpg',
   voicepart: 'Soprano'
 }, {
   fname: 'Amy',
   lname: 'Waters',
-  image: '/img/profileImg/Amy%20-%20Soprano.jpg',
-  voicepart: 'Soprano' 
+  image: 'img/profileImg/Amy%20-%20Soprano.jpg',
+  voicepart: 'Soprano'
 }, {
   fname: 'Alison',
   lname: 'Noe',
-  image: '/img/profileImg/Alison%20-%20Soprano.jpg',
-  voicepart: 'Soprano' 
+  image: 'img/profileImg/Alison%20-%20Soprano.jpg',
+  voicepart: 'Soprano'
 }, {
   fname: 'Kushi',
   lname: 'Beauchamp',
-  image: '/img/profileImg/Kushi%20-%20Alto.jpg',
-  voicepart: 'Alto' 
+  image: 'img/profileImg/Kushi%20-%20Alto.jpg',
+  voicepart: 'Alto'
 }, {
   fname: 'Siani',
   lname: 'Grace',
-  image: '/img/profileImg/Siani%20-%20Alto.PNG',
-  voicepart: 'Alto' 
+  image: 'img/profileImg/Siani%20-%20Alto.PNG',
+  voicepart: 'Alto'
 }, {
   fname: 'Charlie',
   lname: 'Best',
-  image: '/img/profileImg/Charlie%20-%20Tenor.jpg',
-  voicepart: 'Tenor & Alto' 
+  image: 'img/profileImg/Charlie%20-%20Tenor.jpg',
+  voicepart: 'Tenor & Alto'
 }, {
   fname: 'Louis',
   lname: 'Umbarger',
-  image: '/img/profileImg/Louis%20-%20Tenor.jpg',
-  voicepart: 'Tenor' 
+  image: 'img/profileImg/Louis%20-%20Tenor.jpg',
+  voicepart: 'Tenor'
 }, {
   fname: 'Kimo',
   lname: 'Camat',
-  image: '/img/profileImg/Kimo%20-%20Tenor.jpg',
-  voicepart: 'Tenor' 
+  image: 'img/profileImg/Kimo%20-%20Tenor.jpg',
+  voicepart: 'Tenor'
 }, {
   fname: 'Mason',
   lname: 'Wordell',
-  image: '/img/profileImg/Mason%20-%20Bass.jpg',
-  voicepart: 'Bass & Tenor' 
+  image: 'img/profileImg/Mason%20-%20Bass.jpg',
+  voicepart: 'Bass & Tenor'
 }, {
   fname: 'Robert',
   lname: 'Pirtle',
-  image: '/img/profileImg/pirtle.jpg',
-  voicepart: 'Bass & Tenor' 
+  image: 'img/profileImg/pirtle.jpg',
+  voicepart: 'Bass & Tenor'
 }, {
   fname: 'Ted',
   lname: 'Jack',
-  image: '/img/profileImg/Ted%20-%20Bass.jpg',
-  voicepart: 'Bass' 
+  image: 'img/profileImg/Ted%20-%20Bass.jpg',
+  voicepart: 'Bass'
 }, {
   fname: 'Andy',
   lname: 'Erickson',
-  image: '/img/profileImg/Andy%20-%20Bass.jpg',
-  voicepart: 'Bass' 
+  image: 'img/profileImg/Andy%20-%20Bass.jpg',
+  voicepart: 'Bass'
 }, {
   fname: 'Sam',
   lname: 'Wellander',
-  image: '/img/profileImg/Sam%20-%20Bass.jpg',
-  voicepart: 'Bass' 
+  image: 'img/profileImg/Sam%20-%20Bass.jpg',
+  voicepart: 'Bass'
 }]
 
 var bsidevue = new Vue({
@@ -85,7 +85,7 @@ var bsidevue = new Vue({
 
 
 // IMAGE GALLERY PAGE
-var url = '../images.json';
+var url = 'images.json';
 var req = new XMLHttpRequest();
 req.onreadystatechange = function() {
   //do stuff here
@@ -96,7 +96,7 @@ req.onreadystatechange = function() {
     imageGallery: images
   }
 });
-  
+
 }
 req.open('GET', url);
 req.send();
@@ -104,7 +104,7 @@ req.send();
 
 // FORM SUBMITTION
 // $.ajax({
-//     url: "https://formspree.io/you@email.com", 
+//     url: "https://formspree.io/you@email.com",
 //     method: "POST",
 //     data: {message: "hello!"},
 //     dataType: "json"

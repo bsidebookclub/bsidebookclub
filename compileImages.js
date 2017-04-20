@@ -1,9 +1,10 @@
+#! /usr/local/bin/node
 'use strict';
 
 const fs = require('fs');
 const path = require('path');
 
-const imageDirectory = 'img';
+const imageDirectory = 'img/gallery';
 const outputFilename = 'images.json';
 
 function buildJSON(error, data) {
