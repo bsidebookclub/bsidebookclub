@@ -160,7 +160,7 @@
 }
 
 /* DEMO */
-body {
+/*body {
   background: #fefefe;
   color: white;
   -webkit-font-smoothing: antialiased;
@@ -175,7 +175,7 @@ h2 {
   letter-spacing: 3px;
   color: grey;
   text-transform: uppercase;
-}
+}*/
 
 .demo-btn {
   display: inline-block;
