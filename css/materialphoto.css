@@ -5,8 +5,13 @@
   max-width: 100%;
   margin: 0 auto;
 }
+
+.m-p-g img {
+  max-width: 100%;
+}
 .m-p-g__thumbs-img {
   margin: 0;
+  max-width: 90%;
   float: left;
   vertical-align: bottom;
   cursor: pointer;
