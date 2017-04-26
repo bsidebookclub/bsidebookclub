@@ -85,16 +85,23 @@ var bsidevue = new Vue({
 
 
 // IMAGE GALLERY PAGE
+
+function initGallery() {
+	var el = document.querySelector(".m-p-g");
+	var gallery = new MaterialPhotoGallery(el);
+}
+
 var url = 'images.json';
 var req = new XMLHttpRequest();
 req.onreadystatechange = function() {
   //do stuff here
   var images = JSON.parse(req.responseText);
   var imageGallery = new Vue({
-  el: '#bsideImageGallery',
+  el: '.m-p-g',
   data: {
     imageGallery: images
-  }
+  },
+  mounted: initGallery
 });
 
 }

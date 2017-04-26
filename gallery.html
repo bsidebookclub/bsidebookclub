@@ -31,13 +31,15 @@
 
 
   <!-- Compiled and minified CSS -->
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
 
 
   <link rel="stylesheet" media="screen" href="css/customstyle.css">
-  <link rel="stylesheet" href="css/materialphoto.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/material-photo-gallery.css">
+
   <!-- Compiled and minified JavaScript -->
-  <script src="https://unpkg.com/vue"></script>
 
   <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -61,6 +63,7 @@
     ga('send', 'pageview');
   </script>
 
+
 </head>
 
 <body>
@@ -74,7 +77,7 @@
   <nav>
     <div class="nav-wrapper">
       <ul id="nav" class="">
-        <li><a href="index.html" class="" data-position="bottom" data-delay="50" data-tooltip="Beam me home Scotty!">Home</a></li>
+        <li><a href="index.html" class="" data-position="bottom" data-delay="50">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="ourmusic.html">Our Music</a></li>
         <li><a class="activated" href="#">Gallery</a></li>
@@ -84,22 +87,22 @@
       </ul>
     </div>
   </nav>
-  <div class="container" id="bsideImageGallery">
+  <div class="container">
     <div class="row">
       <h1 class="center">Photos of the club</h1>
+
 <!--       IMAGE GALLERY WITH VUE -->
-      <div id="bsidephotos" class="bsidePhotos">
-        <div class="m-p-g center">
-		<div class="row" v-for="image in imageGallery">
-          <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
-            <img class="" :src="image" class="m-p-g__thumbs-img" >
+        <div class="m-p-g">
+          <div class="m-p-g__thumbs" data-google-image-layout data-max-height="250" >
+            <img v-for="image in imageGallery" :src="image" :data-full="image" class="m-p-g__thumbs-img">
           </div>
-		</div>
           <div class="m-p-g__fullscreen"></div>
         </div>
+
+      <!-- END IMAGE GALLERY -->
       </div>
     </div>
-  </div>
+
   <footer class="page-footer grey darken-4">
     <div class="container">
       <div class="row">
@@ -131,17 +134,16 @@
       </div>
     </div>
   </footer>
-	<script type="text/javascript" src="https://rawgit.com/ettrics/material-photo-gallery/master/dist/js/material-photo-gallery.js"></script>
-	<script>
-		var elem = document.querySelector('.m-p-g');
-		document.addEventListener('DOMContentLoaded', function() {
-			var gallery = new MaterialPhotoGallery(elem);
-		});
-	</script>
+
+
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
   <script src="js/customscript.js"></script>
+  <script type="text/javascript" src="https://rawgit.com/andrewbiang888/material-photo-gallery/master/dist/js/material-photo-gallery.js"></script>
+
+
 
 </body>
 
