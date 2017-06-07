@@ -137,11 +137,32 @@ footer i:hover {
 .activated {
   background-color: rgba(0, 0, 0, 0.1);
 }
+th span#smallScreen {
+  display: none;
+}
+td.lastTd {
+  max-width: 20%;
+  max-width: 20vw;
+}
 
 @media screen and (max-width: 448px) {
   nav li:nth-child(3):after {
     content: "\A";
     white-space: pre;
+  }
+}
+@media screen and (max-width: 650px) {
+  td.lastTd {
+    max-width: 60%;
+    max-width: 60vw;
+  }
+}
+@media screen and (max-width: 321px) {
+  th span#smallScreen {
+    display: inline-block;
+  }
+  td.lastTd {
+    display: none;
   }
 }
 
