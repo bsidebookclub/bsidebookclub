@@ -138,11 +138,11 @@ footer i:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 th span#smallScreen {
-  display: none;
+  display: none !important;
 }
 td.lastTd {
-  max-width: 20%;
-  max-width: 20vw;
+  max-width: 20% !important;
+  max-width: 20vw !important;
 }
 
 @media screen and (max-width: 448px) {
@@ -153,16 +153,17 @@ td.lastTd {
 }
 @media screen and (max-width: 650px) {
   td.lastTd {
-    max-width: 60%;
-    max-width: 60vw;
+    max-width: 60% !important;
+    max-width: 60vw !important;
   }
 }
 @media screen and (max-width: 321px) {
   th span#smallScreen {
-    display: inline-block;
+    display: inline-block !important;
+    font-size: 10px;
   }
   td.lastTd {
-    display: none;
+    display: none !important;
   }
 }
 
