@@ -134,6 +134,11 @@ i.fa.fa-sun-o {
   background-color: white;
   font-size: 34px;
 }
+@media screen and (max-width: 400px) {
+  i.fa.fa-sun-o {
+    left: -5px;
+  }
+}
 
 footer a:hover,
 footer i:hover {
