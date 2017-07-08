@@ -120,7 +120,7 @@ i {
   transition: all .25s ease-in-out .1s;
 }
 
-i.fa.fa-calendar {
+i.fa {
   transform: translate(-25px, -31px);
   font-size: 34px;
 }
