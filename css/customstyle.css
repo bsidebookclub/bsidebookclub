@@ -119,10 +119,19 @@ a,
 i {
   transition: all .25s ease-in-out .1s;
 }
+p.center.alertText {
+  position: relative;
+}
 
-i.fa.fa-calendar,
-i.fa.fa-sun-o {
+i.fa.fa-calendar{
   transform: translate(-25px, -31px);
+  font-size: 34px;
+}
+i.fa.fa-sun-o {
+  position: absolute;
+  top: -31px;
+  left: -25px;
+  background-color: white;
   font-size: 34px;
 }
 
