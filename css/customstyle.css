@@ -155,6 +155,10 @@ footer i:hover {
 th span#smallScreen {
   display: none !important;
 }
+td {
+  width: 1%;
+  font-size: .8em;
+}
 td.lastTd {
   max-width: 20% !important;
   max-width: 20vw !important;
