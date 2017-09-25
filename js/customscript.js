@@ -5,11 +5,6 @@ var bsideMembers = [{
   image: 'img/profileImg/Adriana%20-%20Soprano.JPG',
   voicepart: 'Soprano'
 }, {
-  fname: 'Emerald',
-  lname: 'Kaitryn',
-  image: 'img/profileImg/Emerald%20-%20Soprano.JPG',
-  voicepart: 'Soprano'
-}, {
   fname: 'Sierra',
   lname: 'Bertolone-Smith',
   image: 'img/profileImg/Sierra%20-%20Soprano.jpg',
@@ -29,12 +24,14 @@ var bsideMembers = [{
   lname: 'Grace',
   image: 'img/profileImg/Siani%20-%20Alto.PNG',
   voicepart: 'Alto'
-}, {
-  fname: 'Charlie',
-  lname: 'Best',
-  image: 'img/profileImg/Charlie%20-%20Tenor.jpg',
-  voicepart: 'Tenor & Alto'
-}, {
+},
+// {
+//   fname: 'Charlie',
+//   lname: 'Best',
+//   image: 'img/profileImg/Charlie%20-%20Tenor.jpg',
+//   voicepart: 'Tenor & Alto'
+// },
+{
   fname: 'Louis',
   lname: 'Umbarger',
   image: 'img/profileImg/Louis%20-%20Tenor.jpg',
