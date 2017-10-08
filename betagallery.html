@@ -151,9 +151,9 @@
    userId: '2309031811',
    accessToken: '2309031811.ad25d90.bcb2b25c8dda403884dd9b4c7c940e62',
    //limit: 6,
-   //sortBy: 'random',
+   sortBy: 'most-recent',
    resolution: 'standard_resolution',
-   template: '<a class="l-fluidbox" data-aos="zoom-in-up" data-aos-offset="150" href="{{image}}"><img src="{{image}}" /></a>',
+   template: '<a class="l-fluidbox" data-aos="zoom-in-up" data-aos-offset="150" href="{{image}}"><img src="{{image}}" /></a><br><p>{{caption}}</p>',
    after: function() {
      var images = $("#instafeed a").fluidbox();
          AOS.init();

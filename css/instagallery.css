@@ -119,5 +119,6 @@ a[data-fluidbox] img {
 @media (max-width: 400px) {
   .instafeed a {
     float: none;
+    margin-top: 10px;
   }
 }
