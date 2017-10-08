@@ -143,7 +143,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
   <script src="js/customscript.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
-  <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16721/aos.js"></script>
   <script type="text/javascript" src="https://rawgit.com/andrewbiang888/material-photo-gallery/master/dist/js/material-photo-gallery.js"></script>
 
   <script type="text/javascript">
@@ -154,14 +153,11 @@
     //limit: 6,
     //sortBy: 'random',
     resolution: 'standard_resolution',
-    template: '<a data-aos="zoom-in-up" data-aos-offset="150" href="{{image}}"><img class="m-p-g__thumbs-img" data-full="{{image}}" src="{{image}}" /></a>',
-    after: function() {
-      var images = $("#instafeed a");
-          AOS.init();
-      },
+    template: '<img class="m-p-g__thumbs-img" data-full="{{image}}" src="{{image}}" />',
   });
 
   userFeed.run();
+
   </script>
 
 
