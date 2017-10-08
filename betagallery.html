@@ -37,7 +37,8 @@
 
   <link rel="stylesheet" media="screen" href="css/customstyle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="css/material-photo-gallery.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/fluidbox/2.0.3/css/fluidbox.min.css'>
+  <link rel="stylesheet" href="css/instagallery.css">
 
   <!-- Compiled and minified JavaScript -->
 
@@ -62,12 +63,12 @@
     ga('create', 'UA-89573348-1', 'auto');
     ga('send', 'pageview');
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
 
 </head>
 
 <body>
-
   <a href="index.html" class="brand-logo center">
     <div class="logodiv">
       <img class="svglogo" src="img/bside-logo.svg">
@@ -142,24 +143,28 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
   <script src="js/customscript.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js'></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/fluidbox/2.0.3/js/jquery.fluidbox.min.js'></script>
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16721/aos.js'></script>
 
   <script type="text/javascript">
   var userFeed = new Instafeed({
-    get: 'user',
-    userId: '2309031811',
-    accessToken: '2309031811.ad25d90.bcb2b25c8dda403884dd9b4c7c940e62',
-    //limit: 6,
-    //sortBy: 'random',
-    resolution: 'standard_resolution',
-    template: '<img class="m-p-g__thumbs-img" data-full="{{image}}" src="{{image}}" />',
-  });
-
-  userFeed.run();
-
+   get: 'user',
+   userId: '2309031811',
+   accessToken: '2309031811.ad25d90.bcb2b25c8dda403884dd9b4c7c940e62',
+   //limit: 6,
+   //sortBy: 'random',
+   resolution: 'standard_resolution',
+   template: '<a class="l-fluidbox" data-aos="zoom-in-up" data-aos-offset="150" href="{{image}}"><img src="{{image}}" /></a>',
+   after: function() {
+     var images = $("#instafeed a").fluidbox();
+         AOS.init();
+     },
+ });
+ // console.log(userFeed);
+ userFeed.run();
   </script>
-  <script type="text/javascript" src="https://rawgit.com/andrewbiang888/material-photo-gallery/master/dist/js/material-photo-gallery.js" defer ></script>
-
 
 </body>
 
