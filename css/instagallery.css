@@ -110,3 +110,14 @@ a[data-fluidbox] img {
   transform: none !important;
   transition-duration: 0s !important;
 }
+
+@media screen and (max-width: 400px) {
+  .instafeed a {
+    float: none;
+  }
+}
+@media (max-width: 400px) {
+  .instafeed a {
+    float: none;
+  }
+}
