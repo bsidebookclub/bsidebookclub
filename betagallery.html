@@ -96,7 +96,7 @@
       <main class="site-main">
         <div id="instafeed" class="instafeed"></div>
       </main>
-
+      <button id="load-more" class="btn center">Load more</button>
       <!-- END IMAGE GALLERY -->
       </div>
     </div>
@@ -157,9 +157,18 @@
    after: function() {
      var images = $("#instafeed a").fluidbox();
          AOS.init();
+      if (!this.hasNext()) {
+        btnInstafeedLoad.setAttribute('disabled', 'disabled');
+      }
      },
  });
  // console.log(userFeed);
+
+ // bind the load more button
+  loadButton.addEventListener('click', function() {
+      feed.next();
+  });
+
  userFeed.run();
   </script>
 
