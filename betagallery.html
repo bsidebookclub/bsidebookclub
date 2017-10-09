@@ -96,7 +96,7 @@
       <main class="site-main">
         <div id="instafeed" class="instafeed"></div>
       </main>
-      <button id="btn-instafeed-load" class="btn center">Load more</button>
+      <!-- <button id="btn-instafeed-load" class="btn center">Load more</button> -->
       <!-- END IMAGE GALLERY -->
       </div>
     </div>
@@ -157,17 +157,17 @@
    after: function() {
      var images = $("#instafeed a").fluidbox();
          AOS.init();
-      if (!this.hasNext()) {
-        btnInstafeedLoad.setAttribute('disabled', 'disabled');
-      }
+      // if (!this.hasNext()) {
+      //   btnInstafeedLoad.setAttribute('disabled', 'disabled');
+      // }
      },
  });
  // console.log(userFeed);
 
- var btnInstafeedLoad = document.getElementById("btn-instafeed-load");
- btnInstafeedLoad.addEventListener("click", function() {
-   galleryFeed.next()
- });
+ // var btnInstafeedLoad = document.getElementById("btn-instafeed-load");
+ // btnInstafeedLoad.addEventListener("click", function() {
+ //   galleryFeed.next()
+ // });
 
  userFeed.run();
   </script>
