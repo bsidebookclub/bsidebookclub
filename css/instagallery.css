@@ -1,3 +1,6 @@
+.fluidbox__wrap {
+    padding: 10px;
+}
 .instafeed {
   max-width: 60em;
   margin: 0 auto;
