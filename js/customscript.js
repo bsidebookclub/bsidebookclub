@@ -24,6 +24,11 @@ var bsideMembers = [{
   lname: 'Grace',
   image: 'img/profileImg/Siani%20-%20Alto.PNG',
   voicepart: 'Alto'
+}, {
+  fname: 'Becky',
+  lname: 'Friedman',
+  image: 'img/profileImg/nastyheadshot.jpeg',
+  voicepart: 'Alto'
 },
 // {
 //   fname: 'Charlie',
@@ -40,6 +45,11 @@ var bsideMembers = [{
   fname: 'Kimo',
   lname: 'Camat',
   image: 'img/profileImg/Kimo%20-%20Tenor.jpg',
+  voicepart: 'Tenor'
+}, {
+  fname: 'Trevor',
+  lname: 'Sargent',
+  image: 'img/profileImg/trevorImg.jpg',
   voicepart: 'Tenor'
 }, {
   fname: 'Mason',
