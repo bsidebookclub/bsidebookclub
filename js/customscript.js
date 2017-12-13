@@ -30,12 +30,12 @@ var bsideMembers = [{
   image: 'img/profileImg/nastyheadshot.jpeg',
   voicepart: 'Alto'
 },
-// {
-//   fname: 'Charlie',
-//   lname: 'Best',
-//   image: 'img/profileImg/Charlie%20-%20Tenor.jpg',
-//   voicepart: 'Tenor & Alto'
-// },
+{
+  fname: 'Charlie',
+  lname: 'Best',
+  image: 'img/profileImg/Charlie%20-%20Tenor.jpg',
+  voicepart: 'Tenor & Alto'
+},
 {
   fname: 'Louis',
   lname: 'Umbarger',
