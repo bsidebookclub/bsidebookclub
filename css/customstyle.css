@@ -134,6 +134,20 @@ i.fa.fa-sun-o {
   background-color: white;
   font-size: 34px;
 }
+
+
+.classyBottom {
+  padding: 0 !important;
+  margin: 0;
+  margin-bottom: 15px;
+  box-shadow:
+    0 5px #fdd4bd,
+    0 10px #9fd5b7,
+    0 -5px #fdd4bd,
+    0 -10px #9fd5b7
+}
+
+
 @media screen and (max-width: 400px) {
   i.fa.fa-sun-o {
     left: -5px;
