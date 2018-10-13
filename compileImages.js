@@ -15,10 +15,17 @@ function buildJSON(error, data) {
     return path.join('/', imageDirectory, '/', img);
   });
 
-  fs.writeFile(outputFilename, JSON.stringify(images));
+  fs.writeFile(outputFilename, JSON.stringify(images), (error, data) => {
+    if(error)
+    {
+      console.error('oh noes')
+      return console.log(require('util').inspect(error));
+    }
+
+    console.log('Images successfully compiled to', outputFilename);
+  });
+
 }
 
 // read directory, build JSON with info about files.
 fs.readdir(imageDirectory, buildJSON);
-
-console.log('Images successfully compiled to', outputFilename);
