@@ -15,11 +15,6 @@ var bsideMembers = [{
   image: 'img/profileImg/Alison%20-%20Soprano.jpg',
   voicepart: 'Soprano'
 }, {
-  fname: 'Kushi',
-  lname: 'Beauchamp',
-  image: 'img/profileImg/Kushi%20-%20Alto.jpg',
-  voicepart: 'Alto'
-}, {
   fname: 'Siani',
   lname: 'Grace',
   image: 'img/profileImg/Siani%20-%20Alto.PNG',
@@ -29,18 +24,6 @@ var bsideMembers = [{
   lname: 'Friedman',
   image: 'img/profileImg/nastyheadshot.jpeg',
   voicepart: 'Alto'
-},
-{
-  fname: 'Charlie',
-  lname: 'Best',
-  image: 'img/profileImg/Charlie%20-%20Tenor.jpg',
-  voicepart: 'Tenor & Alto'
-},
-{
-  fname: 'Louis',
-  lname: 'Umbarger',
-  image: 'img/profileImg/Louis%20-%20Tenor.jpg',
-  voicepart: 'Tenor'
 }, {
   fname: 'Kimo',
   lname: 'Camat',
@@ -66,17 +49,27 @@ var bsideMembers = [{
   lname: 'Erickson',
   image: 'img/profileImg/Andy%20-%20Bass.jpg',
   voicepart: 'Bass'
-}, {
-  fname: 'Sam',
-  lname: 'Wellander',
-  image: 'img/profileImg/Sam%20-%20Bass.jpg',
-  voicepart: 'Bass'
-}]
+},]
+
+var alumni = [
+  'Sam Wellander',
+  'Maia Erickson',
+  'Louis Umbarger',
+  'Kushi Beauchamp',
+  'Charlie Best',
+  'Amy Waters',
+  'Ted Jack',
+  'Cassie Beucherie',
+  'Max Whitaker',
+  'Emerald Kaitryn',
+  'Kat Milan',
+].sort()
 
 var bsidevue = new Vue({
   el: '#bsidevue',
   data: {
-    members: bsideMembers
+    members: bsideMembers,
+    alumni,
   }
 });
 
@@ -104,12 +97,3 @@ req.onreadystatechange = function() {
 }
 req.open('GET', url);
 req.send();
-
-
-// FORM SUBMITTION
-// $.ajax({
-//     url: "https://formspree.io/you@email.com",
-//     method: "POST",
-//     data: {message: "hello!"},
-//     dataType: "json"
-// });
