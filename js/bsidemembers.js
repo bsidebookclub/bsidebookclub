@@ -20,6 +20,11 @@ var bsideMembers = [{
   image: 'img/profileImg/Siani%20-%20Alto.PNG',
   voicepart: 'Alto'
 }, {
+   fname: 'Kushi',
+   lname: 'Beauchamp',
+   image: 'img/profileImg/Kushi%20-%20Alto.jpg',
+   voicepart: 'Alto'
+}, {
   fname: 'Becky',
   lname: 'Friedman',
   image: 'img/profileImg/nastyheadshot.jpeg',
@@ -55,7 +60,6 @@ var alumni = [
   'Sam Wellander',
   'Maia Erickson',
   'Louis Umbarger',
-  'Kushi Beauchamp',
   'Charlie Best',
   'Amy Waters',
   'Ted Jack',
