@@ -272,7 +272,7 @@ body {
 .container .choice .track .speakers {
   height: 20px;
   width: 20px;
-  background-image: url(http://audeficheux.com/projects/carousel/src/images/speaker.png);
+  /* background-image: url(http://audeficheux.com/projects/carousel/src/images/speaker.png); */
   background-repeat: no-repeat;
   vertical-align: middle;
   float: right;
