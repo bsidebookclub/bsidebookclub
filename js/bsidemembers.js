@@ -27,7 +27,7 @@ var bsideMembers = [{
 }, {
   fname: 'Becky',
   lname: 'Friedman',
-  image: 'img/profileImg/nastyheadshot.jpeg',
+  image: 'img/profileImg/Becky%20-%20Alto.jpeg',
   voicepart: 'Alto'
 }, {
   fname: 'Kimo',
@@ -35,20 +35,30 @@ var bsideMembers = [{
   image: 'img/profileImg/Kimo%20-%20Tenor.jpg',
   voicepart: 'Tenor'
 }, {
-  fname: 'Trevor',
-  lname: 'Sargent',
-  image: 'img/profileImg/trevorImg.jpg',
+  fname: 'Matthew',
+  lname: 'Spady',
+  image: 'img/profileImg/Matthew%20-%20Tenor.jpg',
   voicepart: 'Tenor'
+}, {
+  fname: 'Austin',
+  lname: 'Mahar',
+  image: 'img/profileImg/Austin%20-%20Tenor.jpg',
+  voicepart: 'Tenor, Vocal Percussion'
+}, {
+  fname: 'Scott',
+  lname: 'Forman',
+  image: 'img/profileImg/Scott%20-%20Tenor.png',
+  voicepart: 'Baritone'
+}, {
+  fname: 'Robert',
+  lname: 'Pirtle',
+  image: 'img/profileImg/Pirtle%20-%20Bass.jpg',
+  voicepart: 'Baritone'
 }, {
   fname: 'Mason',
   lname: 'Wordell',
   image: 'img/profileImg/Mason%20-%20Bass.jpg',
-  voicepart: 'Bass & Tenor'
-}, {
-  fname: 'Robert',
-  lname: 'Pirtle',
-  image: 'img/profileImg/pirtle.jpg',
-  voicepart: 'Bass & Tenor'
+  voicepart: 'Bass'
 }, {
   fname: 'Andy',
   lname: 'Erickson',
@@ -57,6 +67,7 @@ var bsideMembers = [{
 },]
 
 var alumni = [
+  'Trevor Sargent',
   'Sam Wellander',
   'Maia Erickson',
   'Louis Umbarger',
