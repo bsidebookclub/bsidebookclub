@@ -7,7 +7,6 @@
   <title>B-Side Book Club | An A Cappella Group</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="img/bside-logo.png" sizes="32x32" />
 
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -15,9 +14,8 @@
 
   <meta name="robots" content="noodp" />
   <link rel="canonical" href="https://bsidebookclub.com/" />
-
+  <link rel="icon" type="image/png" href="/img/bside-logo.png" sizes="32x32" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
   <!--   Social -->
@@ -25,18 +23,13 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="B-Side Book Club: An A Cappella Group">
   <meta property="og:description" content="Portland Oregon A Cappella Group">
-  <meta property="og:image" content="img/bside-logo.png">
+  <meta property="og:image" content="/img/bside-logo.png">
   <meta property="og:url" content="https://bsidebookclub.com/">
   <meta property="og:site_name" content="B-Side Book Club A Cappella">
 
 
-  <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
-
-
-  <link rel="stylesheet" media="screen" href="css/customstyle.css">
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://unpkg.com/vue"></script>
+  <link rel="stylesheet" media="screen" href="/css/style.css">
 
   <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -66,8 +59,8 @@
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
   <a href="index.html" class="brand-logo center">
     <div class="logodiv">
-      <img class="svglogo" src="img/bside-logo.svg">
-      <img class="textlogo" src="img/bsidetitletext.svg">
+      <img class="svglogo" src="/img/bside-logo.svg">
+      <img class="textlogo" src="/img/bsidetitletext.svg">
     </div>
   </a>
   <nav>
@@ -83,33 +76,35 @@
       </ul>
     </div>
   </nav>
+
   <div class="container" id="bsideImageGallery">
-    <div class="row">
-      <h1 class="center">Contact Us!</h1>
-      <p>B-Side Book Club is based out of Portland, Oregon. We have experience performing in many different settings ranging from formal concerts, craft markets, company dinners, social events, or a backyard bonfire. If you would like to book us or have any questions please email us or get in touch with one of our members. We’d love to hear from you!</p>
-      <div class="input-field col s12 m6">
-        <img class="homeImg marginCenter z-depth-5" width="100%" src="/img/gallery/kgwfamous.jpg">
-      </div>
-
-      <div class="input-field col s12 m6">
-        <form method="POST" action="http://formspree.io/bsidebookclubacappella@gmail.com">
-          <input id="email" type="email" class="validate" name="_replyto" style="border: 1px black solid;">
-          <label class="active" for="email">Your email</label>
-<!--           <input type="hidden" name="_next" value="/thanks.html" /> -->
-          <input type="hidden" name="_subject" value="New submission!" />
-          <textarea name="message" placeholder="Your message"></textarea>
-          <button class="waves-effect waves-light btn" type="submit">Send</button>
-        </form>
-      </div>
-
-
-
+  <div class="row">
+    <h1 class="center">Contact Us!</h1>
+    <p>B-Side Book Club is based out of Portland, Oregon. We have experience performing in many different settings ranging from formal concerts, craft markets, company dinners, social events, or a backyard bonfire. If you would like to book us or have any questions please email us or get in touch with one of our members. We’d love to hear from you!</p>
+    <div class="input-field col s12 m6">
+      <img class="homeImg marginCenter z-depth-5" width="100%" src="/img/gallery/kgwfamous.jpg">
     </div>
+
+    <div class="input-field col s12 m6">
+      <form method="POST" action="http://formspree.io/bsidebookclubacappella@gmail.com">
+        <input id="email" type="email" class="validate" name="_replyto" style="border: 1px black solid;">
+        <label class="active" for="email">Your email</label>
+<!--           <input type="hidden" name="_next" value="/thanks.html" /> -->
+        <input type="hidden" name="_subject" value="New submission!" />
+        <textarea name="message" placeholder="Your message"></textarea>
+        <button class="waves-effect waves-light btn" type="submit">Send</button>
+      </form>
+    </div>
+
+
+
   </div>
+</div>
+
+
   <footer class="page-footer grey darken-4">
     <div class="container">
       <div class="row">
-        <!--               <div class="col l6 s12 center"> -->
         <div class="col s12 center">
           <h5 class="white-text">B-Side Book Club A Cappella</h5>
           <p class="white-text">Portland, Oregon | <a class="white-text" href="#!">Contact Us</a></p>
@@ -121,20 +116,11 @@
             <a href="https://www.youtube.com/channel/UCX7kpDHYwYUEIm0ziEBTxAQ"><i class="fa fa-youtube col s3 white-text" aria-hidden="true"></i></a>
           </div>
         </div>
-        <!--               <div class="col l4 offset-l2 s12 center">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="white-text" href="#!">Link 1</a></li>
-                  <li><a class="white-text" href="#!">Link 2</a></li>
-                  <li><a class="white-text" href="#!">Link 3</a></li>
-                  <li><a class="white-text" href="#!">Link 4</a></li>
-                </ul>
-              </div> -->
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container black-text">
-        © 2017 Copyright B-Side Book Club
+      <div class="container">
+        © 2019 Copyright B-Side Book Club
       </div>
     </div>
   </footer>
@@ -142,10 +128,6 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
-  <script src="js/bsidemembers.js"></script>
-  <script>
-    Materialize.updateTextFields();
-  </script>
 
 </body>
 

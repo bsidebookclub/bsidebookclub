@@ -7,17 +7,15 @@
   <title>B-Side Book Club | An A Cappella Group</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="img/bside-logo.png" sizes="32x32" />
 
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
+  <link rel="apple-touch-icon" href="img/bside-logo.png">
 
   <meta name="robots" content="noodp" />
   <link rel="canonical" href="https://bsidebookclub.com/" />
-  <link rel="icon" href="img/bside-logo.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/img/bside-logo.png" sizes="32x32" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
   <!--   Social -->
@@ -25,18 +23,13 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="B-Side Book Club: An A Cappella Group">
   <meta property="og:description" content="Portland Oregon A Cappella Group">
-  <meta property="og:image" content="img/bside-logo.png">
+  <meta property="og:image" content="/img/bside-logo.png">
   <meta property="og:url" content="https://bsidebookclub.com/">
   <meta property="og:site_name" content="B-Side Book Club A Cappella">
 
 
-  <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
-
-  <!-- <link rel="stylesheet" href="css/materialphoto.css" /> -->
-  <link rel="stylesheet" media="screen" href="css/customstyle.css">
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://unpkg.com/vue"></script>
+  <link rel="stylesheet" media="screen" href="/css/style.css">
 
   <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -66,8 +59,8 @@
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
   <a href="index.html" class="brand-logo center">
     <div class="logodiv">
-      <img class="svglogo" src="img/bside-logo.svg">
-      <img class="textlogo" src="img/bsidetitletext.svg">
+      <img class="svglogo" src="/img/bside-logo.svg">
+      <img class="textlogo" src="/img/bsidetitletext.svg">
     </div>
   </a>
   <nav>
@@ -83,200 +76,207 @@
       </ul>
     </div>
   </nav>
+
   <div class="container" id="bsideImageGallery">
-    <div class="row">
-      <h1 class="center">Upcoming Events</h1>
-      <table>
-        <thead>
-          <tr>
-              <th>Date</th>
-              <th>Event</th>
-              <th>Venue</th>
-              <th>Time</th>
-              <th>Additional Info<span id="smallScreen"><p>for additional info turn your phone!</p></span></th>
-          </tr>
-        </thead>
+  <div class="row">
+    <h1 class="center">Upcoming Events</h1>
+    <table>
+      <thead>
+        <tr>
+            <th>Date</th>
+            <th>Event</th>
+            <th>Venue</th>
+            <th>Time</th>
+            <th>Additional Info<span id="smallScreen"><p>for additional info turn your phone!</p></span></th>
+        </tr>
+      </thead>
 
-        <tbody>
-          <!-- <tr>
-            <td>Dec&nbsp;7, 2018</td>
-            <td>Figgy Pudding Caroling Competition</td>
-            <td><a href="https://goo.gl/maps/wUFot7Lagtx" target="_blank">Pioneer Courthouse Square</a><br>701 SW 6th Ave, Portland</td>
-            <td>5:30-7:30PM</td>
-            <td class="lastTd"><div style="width:100%;height:0;padding-bottom:84%;position:relative;"><iframe src="https://giphy.com/embed/yoJC2GnSClbPOkV0eA" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div></td>
-          </tr>
-          <tr>
-            <td>Dec&nbsp;14, 2018</td>
-            <td>'An A Cappella Christmas' Show</td>
-            <td><a href="https://goo.gl/maps/D4NyGJ4zuwN2" target="_blank">Hinson Baptist Church</a>
-              <br>1137 SE 20th Ave, Portland
-            </td>
-            <td>Doors @ 7PM</td>
-            <td class="lastTd">Join THREE Portland a cappella groups (The Rose Tones, B-Side Book Club, and brand new group Good Measure) as we perform some of our favorite Christmas & non-Christmas songs!</td>
-          </tr> -->
-          <!-- <tr>
-            <td>Jan&nbsp;19, 2019</td>
-            <td>An Evening with B-Side Book Club</td>
-            <td><a href="https://goo.gl/maps/vmopNthCQv62" target="_blank">The Waypost</a>
-              <br>3120 N Williams Ave, Portland
-            </td>
-            <td>Doors @ 8PM</td>
-            <td class="lastTd">Our 2nd annual gig at one of our favorite bars! Come hear what we've been working on along with interludes of solo and small group material by members and friends of the Book Club.</td>
-          </tr> -->
-          <!-- <tr>
-            <td>Feb&nbsp;14, 2019</td>
-            <td>B-Side at New Seasons</td>
-            <td><a href="https://goo.gl/maps/yTiKyYdBoqq" target="_blank">New Seasons</a>
-              <br>3445 N Williams Ave, Portland, OR 97212
-            </td>
-            <td>6PM - 8PM</td>
-            <td class="lastTd">Our 2nd annual gig at one of our favorite bars! Come hear what we've been working on along with interludes of solo and small group material by members and friends of the Book Club.</td>
-          </tr> -->
-          <tr>
-            <td>March&nbsp;9, 2019</td>
-            <td>Lewis & Clark Honor's Banquet</td>
-            <td>Lewis & Clark College
-            </td>
-            <td>7:30PM - 8:00PM</td>
-            <td class="lastTd">We are singing at Lewis & Clark for the Honor's Banquet. Short and sweet, but lots of fun!</td>
-          </tr>
-          <tr>
-            <td>March&nbsp;30, 2019</td>
-            <td>ICCA West Semi-Finals</td>
-            <td><a href="https://varsityvocals.com/event/2019_icca_west_sf_elsinore_theatre/ " target="_blank">Elsinore Theatre, Salem, OR</a>
-              <br>
-            </td>
-            <td>7:30PM - 8:00PM</td>
-            <td class="lastTd">Don’t miss your chance to cheer on your favorite collegiate a cappella group in a national competition! While B-Side will not be competing, we will be performing during the judges deliberation!! Come join us to celebrate everyone's hard work and hear some of our new songs!<br/>
-              <a href="https://varsityvocals.com/event/2019_icca_west_sf_elsinore_theatre/" target="_blank" class="href">Buy tickets here!</a></td>
-          </tr>
-          <!-- <tr>
-            <td>2/14/2018</td>
-            <td>Valentine’s Day</td>
-            <td><a href="https://goo.gl/maps/FfNgz5phiSH2" target="_blank">New Seasons Market on Williams</a></td>
-            <td>6:00 - 7:00 pm</td>
-            <td class="lastTd">Join B-Side Book Club for a free evening of music, featuring songs of love and friendship, in the New Seasons Cafe on N. Williams Ave.</a>!</td>
-          </tr> -->
-          <!-- <tr>
-            <td>3/9/2018</td>
-            <td>Friendly House Annual Spring Auction</td>
-            <td><a href="https://maps.google.com/?q=1737+NW+26th+Ave&entry=gmail&source=g" target="_blank">Friendly House Crawford Building</a></td>
-            <td>8:00 pm</td>
-            <td class="lastTd">Friendly House is a PDX nonprofit serving low-income families and older adults through their Children's Programs and Senior Services, in addition to their role as a community center in NW Portland. Their Annual Spring Auction is coming up and B-Side will be performing for f Friendly House's loyal supporters. </a>!</td>
-          </tr>
-          <tr>
-            <td>3/10/2018</td>
-            <td>Harmony SweepStakes</td>
-            <td><a href="http://www.washingtoncenter.org/event/mce-1803/" target="_blank">The Washington Center for the Performing Arts</a></td>
-            <td>7:30 - 10:00 pm</td>
-            <td class="lastTd">B-Side will be competing in the Harmony Sweepstakes Pacific Northwest regional a cappella competition. The winner of tonight’s sing-off moves on to compete at the Nationals.  You’ll hear the tightest harmonies and coolest beat-boxing, and see the smoothest dance moves – all styled around great love songs and comic gems. The 2017 champions, Renegade Quartet, return to host this evening of rousing a cappella. Tickets: <a href="http://www.washingtoncenter.org/event/mce-1803/" target="_blank">www.washingtoncenter.org/event/mce-1803/</a>!</td>
-          </tr>
-          <tr>
-            <td>5/5/2018</td>
-            <td>Roots-n-Harmony: Second Annual Benefit Show</td>
-            <td><a href="https://goo.gl/maps/gLjQPufTf872" target="_blank">Cathedral Park Performing Arts Collective</a></td>
-            <td>6:00 - 9:00 pm</td>
-            <td class="lastTd">Featuring live music and performances by CPPAC students and ensembles, as well as a silent auction, raffle, and light fare. Enjoy an evening out in St. Johns in support of music & theatre arts education in the North Portland community! All proceeds from this event benefit student programs at Cathedral Park Performing Arts Collective (CPPAC). CPPAC is a 501(c)(3) nonprofit organization located in the heart of St. Johns, Portland, Oregon. Their mission is to foster self-determination through the creative engagement of the community in the performing arts. This community-driven nonprofit was founded by St. Johns residents who are professional musicians and teachers with a passion for the performing arts. For more information about CPPAC studio programs and community partnerships, visit their website: <a href="cathedralparkarts.org " target="_blank">cathedralparkarts.org</a>!</td>
-          </tr> -->
-          <!-- <tr>
-            <td>6/01/2018</td>
-            <td>Festival of Flowers</td>
-            <td><a href="https://goo.gl/maps/Ux2wp8BBETU2" target="_blank">Pioneer Square</a></td>
-            <td>12:00 pm - 1:00 pm</td>
-            <td class="lastTd">Festival of Flowers is an annual floral display that happens at the Square every June. Pioneer Square works with a design firm to create a design made of around 20,000 flowers. Find us singing amongst the roses!</td>
-          </tr> -->
-          <!-- <tr>
-            <td>6/02/2018</td>
-            <td>An Evening with Girl Band and B-Side</td>
-            <td><a href="https://goo.gl/maps/3EHpPJ6RQKw" target="_blank">Equinox Apartments</a></td>
-            <td>7:00 pm</td>
-            <td class="lastTd">Join us on the rooftop terrace of the Equinox Apartments for some fresh air, sweeping views of Lake Union, and of course, all your favorite a cappella hits! You are also welcome to stay after the show and party with us.<br>
-              BYOB, $5 cover at the door. <br>
-              Street parking is available. There will be people posted at the building doors to get you up the elevator and to the roof.</td>
-          </tr> -->
-          <!-- <tr>
-            <td>6/22/2018</td>
-            <td>Moonlight a Capella Concert</td>
-            <td><a href="https://goo.gl/maps/tk9Rt8iK5xH2" target="_blank"> Lewis & Clark College Reflrecting Pool</a></td>
-            <td>9:30 pm</td>
-            <td class="lastTd">We will be celebrating the sesquicentennial during Alumni Weekend 2018 (June 21-24) and are planning a number of affinity reunions for this special celebratory year. B-Side Book Club will be performing in a moonlight a cappella concert by the reflecting pool. Join us!</td>
-          </tr> -->
-          <!-- <tr>
-            <td>7/14/2018</td>
-            <td><a href="https://varsityvocals.com/the-open-2018-lineup/" target="_blank">2018 West Region Semi-Finals of A Cappella Open</a></td>
-            <td><a href="https://www.google.com/maps?f=q&source=s_q&hl=en&geocode&q=28545+W+Driver+Ave.+Agoura+Hills+Ave.+CA+91301+United+States" target="_blank">Agoura High School</a></td>
-            <td>7:00 pm</td>
-            <td class="lastTd">Come see us perform in the western regional semi-finals A Cappella Open! We are so excited and honored to compete with some amazing groups in LA. #AcaOpen</td>
-          </tr> -->
-          <!-- <tr>
-            <td>07/21/2018</td>
-            <td>Wedding!</td>
-            <td>Portland Area</td>
-            <td>Evening</td>
-            <td class="lastTd">You're probably not invited, but we do weddings! Want us to sing at your's? <a href="contactus.html">Contact Us</a>!</td>
-          </tr> -->
-          <!-- <tr>
-            <td>8/04/2018</td>
-            <td>Hooked on Nature with Columbia Springs</td>
-            <td><a href="https://goo.gl/maps/jdqZPkcrNcD2" target="_blank" >Clark College</a></td>
-            <td>Evening</td>
-            <td class="lastTd">Come help Columbia Springs fund their facilities and programs so they can best welcome everyone who wants to connect with nature!</td>
-          </tr> -->
+      <tbody>
+        <!-- <tr>
+          <td>Dec&nbsp;7, 2018</td>
+          <td>Figgy Pudding Caroling Competition</td>
+          <td><a href="https://goo.gl/maps/wUFot7Lagtx" target="_blank">Pioneer Courthouse Square</a><br>701 SW 6th Ave, Portland</td>
+          <td>5:30-7:30PM</td>
+          <td class="lastTd"><div style="width:100%;height:0;padding-bottom:84%;position:relative;"><iframe src="https://giphy.com/embed/yoJC2GnSClbPOkV0eA" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div></td>
+        </tr>
+        <tr>
+          <td>Dec&nbsp;14, 2018</td>
+          <td>'An A Cappella Christmas' Show</td>
+          <td><a href="https://goo.gl/maps/D4NyGJ4zuwN2" target="_blank">Hinson Baptist Church</a>
+            <br>1137 SE 20th Ave, Portland
+          </td>
+          <td>Doors @ 7PM</td>
+          <td class="lastTd">Join THREE Portland a cappella groups (The Rose Tones, B-Side Book Club, and brand new group Good Measure) as we perform some of our favorite Christmas & non-Christmas songs!</td>
+        </tr> -->
+        <!-- <tr>
+          <td>Jan&nbsp;19, 2019</td>
+          <td>An Evening with B-Side Book Club</td>
+          <td><a href="https://goo.gl/maps/vmopNthCQv62" target="_blank">The Waypost</a>
+            <br>3120 N Williams Ave, Portland
+          </td>
+          <td>Doors @ 8PM</td>
+          <td class="lastTd">Our 2nd annual gig at one of our favorite bars! Come hear what we've been working on along with interludes of solo and small group material by members and friends of the Book Club.</td>
+        </tr> -->
+        <!-- <tr>
+          <td>Feb&nbsp;14, 2019</td>
+          <td>B-Side at New Seasons</td>
+          <td><a href="https://goo.gl/maps/yTiKyYdBoqq" target="_blank">New Seasons</a>
+            <br>3445 N Williams Ave, Portland, OR 97212
+          </td>
+          <td>6PM - 8PM</td>
+          <td class="lastTd">Our 2nd annual gig at one of our favorite bars! Come hear what we've been working on along with interludes of solo and small group material by members and friends of the Book Club.</td>
+        </tr> -->
+        <tr>
+          <td>March&nbsp;9, 2019</td>
+          <td>Lewis & Clark Honor's Banquet</td>
+          <td>Lewis & Clark College
+          </td>
+          <td>7:30PM - 8:00PM</td>
+          <td class="lastTd">We are singing at Lewis & Clark for the Honor's Banquet. Short and sweet, but lots of fun!</td>
+        </tr>
+        <tr>
+          <td>March&nbsp;30, 2019</td>
+          <td>ICCA West Semi-Finals</td>
+          <td><a href="https://varsityvocals.com/event/2019_icca_west_sf_elsinore_theatre/ " target="_blank">Elsinore Theatre, Salem, OR</a>
+            <br>
+          </td>
+          <td>7:30PM - 8:00PM</td>
+          <td class="lastTd">Don’t miss your chance to cheer on your favorite collegiate a cappella group in a national competition! While B-Side will not be competing, we will be performing during the judges deliberation!! Come join us to celebrate everyone's hard work and hear some of our new songs!<br/>
+            <a href="https://varsityvocals.com/event/2019_icca_west_sf_elsinore_theatre/" target="_blank" class="href">Buy tickets here!</a></td>
+        </tr>
+        <tr>
+          <td>May&nbsp;4, 2019</td>
+          <td>Show with Girl Band</td>
+          <td>TBD, Portland, OR</td>
+          <td>TBD</td>
+          <td class="lastTd">We're planning a show with one of our favorite groups from Seatle: Girl Band! They're an amazing group of six women we LOVE to sing with! Check them out on <a href="https://www.facebook.com/GIRLBANDseattle/" target="_blank">Facebook</a>. More details coming soon!</td>
+        </tr>
+        <!-- <tr>
+          <td>2/14/2018</td>
+          <td>Valentine’s Day</td>
+          <td><a href="https://goo.gl/maps/FfNgz5phiSH2" target="_blank">New Seasons Market on Williams</a></td>
+          <td>6:00 - 7:00 pm</td>
+          <td class="lastTd">Join B-Side Book Club for a free evening of music, featuring songs of love and friendship, in the New Seasons Cafe on N. Williams Ave.</a>!</td>
+        </tr> -->
+        <!-- <tr>
+          <td>3/9/2018</td>
+          <td>Friendly House Annual Spring Auction</td>
+          <td><a href="https://maps.google.com/?q=1737+NW+26th+Ave&entry=gmail&source=g" target="_blank">Friendly House Crawford Building</a></td>
+          <td>8:00 pm</td>
+          <td class="lastTd">Friendly House is a PDX nonprofit serving low-income families and older adults through their Children's Programs and Senior Services, in addition to their role as a community center in NW Portland. Their Annual Spring Auction is coming up and B-Side will be performing for f Friendly House's loyal supporters. </a>!</td>
+        </tr>
+        <tr>
+          <td>3/10/2018</td>
+          <td>Harmony SweepStakes</td>
+          <td><a href="http://www.washingtoncenter.org/event/mce-1803/" target="_blank">The Washington Center for the Performing Arts</a></td>
+          <td>7:30 - 10:00 pm</td>
+          <td class="lastTd">B-Side will be competing in the Harmony Sweepstakes Pacific Northwest regional a cappella competition. The winner of tonight’s sing-off moves on to compete at the Nationals.  You’ll hear the tightest harmonies and coolest beat-boxing, and see the smoothest dance moves – all styled around great love songs and comic gems. The 2017 champions, Renegade Quartet, return to host this evening of rousing a cappella. Tickets: <a href="http://www.washingtoncenter.org/event/mce-1803/" target="_blank">www.washingtoncenter.org/event/mce-1803/</a>!</td>
+        </tr>
+        <tr>
+          <td>5/5/2018</td>
+          <td>Roots-n-Harmony: Second Annual Benefit Show</td>
+          <td><a href="https://goo.gl/maps/gLjQPufTf872" target="_blank">Cathedral Park Performing Arts Collective</a></td>
+          <td>6:00 - 9:00 pm</td>
+          <td class="lastTd">Featuring live music and performances by CPPAC students and ensembles, as well as a silent auction, raffle, and light fare. Enjoy an evening out in St. Johns in support of music & theatre arts education in the North Portland community! All proceeds from this event benefit student programs at Cathedral Park Performing Arts Collective (CPPAC). CPPAC is a 501(c)(3) nonprofit organization located in the heart of St. Johns, Portland, Oregon. Their mission is to foster self-determination through the creative engagement of the community in the performing arts. This community-driven nonprofit was founded by St. Johns residents who are professional musicians and teachers with a passion for the performing arts. For more information about CPPAC studio programs and community partnerships, visit their website: <a href="cathedralparkarts.org " target="_blank">cathedralparkarts.org</a>!</td>
+        </tr> -->
+        <!-- <tr>
+          <td>6/01/2018</td>
+          <td>Festival of Flowers</td>
+          <td><a href="https://goo.gl/maps/Ux2wp8BBETU2" target="_blank">Pioneer Square</a></td>
+          <td>12:00 pm - 1:00 pm</td>
+          <td class="lastTd">Festival of Flowers is an annual floral display that happens at the Square every June. Pioneer Square works with a design firm to create a design made of around 20,000 flowers. Find us singing amongst the roses!</td>
+        </tr> -->
+        <!-- <tr>
+          <td>6/02/2018</td>
+          <td>An Evening with Girl Band and B-Side</td>
+          <td><a href="https://goo.gl/maps/3EHpPJ6RQKw" target="_blank">Equinox Apartments</a></td>
+          <td>7:00 pm</td>
+          <td class="lastTd">Join us on the rooftop terrace of the Equinox Apartments for some fresh air, sweeping views of Lake Union, and of course, all your favorite a cappella hits! You are also welcome to stay after the show and party with us.<br>
+            BYOB, $5 cover at the door. <br>
+            Street parking is available. There will be people posted at the building doors to get you up the elevator and to the roof.</td>
+        </tr> -->
+        <!-- <tr>
+          <td>6/22/2018</td>
+          <td>Moonlight a Capella Concert</td>
+          <td><a href="https://goo.gl/maps/tk9Rt8iK5xH2" target="_blank"> Lewis & Clark College Reflrecting Pool</a></td>
+          <td>9:30 pm</td>
+          <td class="lastTd">We will be celebrating the sesquicentennial during Alumni Weekend 2018 (June 21-24) and are planning a number of affinity reunions for this special celebratory year. B-Side Book Club will be performing in a moonlight a cappella concert by the reflecting pool. Join us!</td>
+        </tr> -->
+        <!-- <tr>
+          <td>7/14/2018</td>
+          <td><a href="https://varsityvocals.com/the-open-2018-lineup/" target="_blank">2018 West Region Semi-Finals of A Cappella Open</a></td>
+          <td><a href="https://www.google.com/maps?f=q&source=s_q&hl=en&geocode&q=28545+W+Driver+Ave.+Agoura+Hills+Ave.+CA+91301+United+States" target="_blank">Agoura High School</a></td>
+          <td>7:00 pm</td>
+          <td class="lastTd">Come see us perform in the western regional semi-finals A Cappella Open! We are so excited and honored to compete with some amazing groups in LA. #AcaOpen</td>
+        </tr> -->
+        <!-- <tr>
+          <td>07/21/2018</td>
+          <td>Wedding!</td>
+          <td>Portland Area</td>
+          <td>Evening</td>
+          <td class="lastTd">You're probably not invited, but we do weddings! Want us to sing at your's? <a href="contactus.html">Contact Us</a>!</td>
+        </tr> -->
+        <!-- <tr>
+          <td>8/04/2018</td>
+          <td>Hooked on Nature with Columbia Springs</td>
+          <td><a href="https://goo.gl/maps/jdqZPkcrNcD2" target="_blank" >Clark College</a></td>
+          <td>Evening</td>
+          <td class="lastTd">Come help Columbia Springs fund their facilities and programs so they can best welcome everyone who wants to connect with nature!</td>
+        </tr> -->
 
-          <!-- <tr>
-            <td>Oct 21</td>
-            <td>Homecoming Concert</td>
-            <td><a href="https://goo.gl/maps/eRxHgr5pe7U2">Lewis & Clark College</a></td>
-            <td>8:30pm</td>
-            <td class="lastTd">We will be performing at the homecoming concert at Lewis & Clark College! Come hear a few songs at the Chapel!</td>
-          </tr>
-          <tr>
-            <td>Oct 28</td>
-            <td><a href="http://thirdrailrep.org/company-history/coming-soon/the-events/">The Events</a></td>
-            <td><a href="https://goo.gl/maps/STuqr5px2w22">Imago Theatre</a></td>
-            <td>7:30pm</td>
-            <td class="lastTd">"Weaving together bold theatricality, unflinching storytelling, and live community choirs, David Greig's daring and powerful play explores our desire to fathom the unfathomable and asks how far forgiveness will stretch in the face of atrocity." Come check it out!</td>
-          </tr> -->
-          <!-- <tr>
-            <td>Dec&nbsp;2</td>
-            <td><a href="https://www.facebook.com/events/336324580172889/" target="_blank">All Classical Portland's Holiday Open House</a></td>
-            <td><a href="https://goo.gl/maps/pqEXG1vpUF82" target="_blank">All Classical Portland</a></a></td>
-            <td>3:00pm - 5:00pm</td>
-            <td class="lastTd">Come enjoy All Classical Portland's lovely open house and a little bit of sweet sweet music. Spoiler alert: there will be caroling.</td>
-          </tr> -->
-          <!-- <tr>
-            <td>Dec&nbsp;2</td>
-            <td><a href=" https://www.facebook.com/events/747957462066908/?ref=br_rs" target="_blank">An Evening with B-Side Book Club</a></td>
-            <td><a href="https://goo.gl/maps/7DYobPEYQWC2" target="_blank">The Waypost</a></a></td>
-            <td>8:00pm - 10:00pm</td>
-            <td class="lastTd">Please join us for a performance with B-side Book Club A Cappella. Come hear songs on their new EP, old favorties, and interludes of solo and small group material by members and friends of the Book Club. </td>
-          </tr> -->
-          <!-- <tr>
-            <td>Dec&nbsp;8</td>
-            <td>Figgy Pudding Caroling Competition</td>
-            <td>Pioneer Courthouse Square</td>
-            <td>TBD, Evening time</td>
-            <td class="lastTd"><div style="width:100%;height:0;padding-bottom:84%;position:relative;"><iframe src="https://giphy.com/embed/yoJC2GnSClbPOkV0eA" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div></td>
-          </tr> -->
-          <!-- <tr>
-            <td>Dec&nbsp;15</td>
-            <td><a href="https://www.facebook.com/events/1519645828151755/" target="_blank">3rd Annual Northwest A Cappella Seasonal Showcase</a></td>
-            <td>4408 Delridge Way SW<br />Seattle, WA</td>
-            <td>doors @ 7pm<br />show @ 8pm</td>
-            <td class="lastTd">Come celebrate the season at this family friendly holiday showcase as some of the PNW's most entertaining contemporary a cappella groups take the stage!<br />For tickets &amp; more info check out the <a href="https://www.facebook.com/events/1519645828151755/" target="blank">Facebook event</a>.</td>
-          </tr> -->
-        </tbody>
-      </table>
-      <p class="center">Check back soon for updates!</p>
+        <!-- <tr>
+          <td>Oct 21</td>
+          <td>Homecoming Concert</td>
+          <td><a href="https://goo.gl/maps/eRxHgr5pe7U2">Lewis & Clark College</a></td>
+          <td>8:30pm</td>
+          <td class="lastTd">We will be performing at the homecoming concert at Lewis & Clark College! Come hear a few songs at the Chapel!</td>
+        </tr>
+        <tr>
+          <td>Oct 28</td>
+          <td><a href="http://thirdrailrep.org/company-history/coming-soon/the-events/">The Events</a></td>
+          <td><a href="https://goo.gl/maps/STuqr5px2w22">Imago Theatre</a></td>
+          <td>7:30pm</td>
+          <td class="lastTd">"Weaving together bold theatricality, unflinching storytelling, and live community choirs, David Greig's daring and powerful play explores our desire to fathom the unfathomable and asks how far forgiveness will stretch in the face of atrocity." Come check it out!</td>
+        </tr> -->
+        <!-- <tr>
+          <td>Dec&nbsp;2</td>
+          <td><a href="https://www.facebook.com/events/336324580172889/" target="_blank">All Classical Portland's Holiday Open House</a></td>
+          <td><a href="https://goo.gl/maps/pqEXG1vpUF82" target="_blank">All Classical Portland</a></a></td>
+          <td>3:00pm - 5:00pm</td>
+          <td class="lastTd">Come enjoy All Classical Portland's lovely open house and a little bit of sweet sweet music. Spoiler alert: there will be caroling.</td>
+        </tr> -->
+        <!-- <tr>
+          <td>Dec&nbsp;2</td>
+          <td><a href=" https://www.facebook.com/events/747957462066908/?ref=br_rs" target="_blank">An Evening with B-Side Book Club</a></td>
+          <td><a href="https://goo.gl/maps/7DYobPEYQWC2" target="_blank">The Waypost</a></a></td>
+          <td>8:00pm - 10:00pm</td>
+          <td class="lastTd">Please join us for a performance with B-side Book Club A Cappella. Come hear songs on their new EP, old favorties, and interludes of solo and small group material by members and friends of the Book Club. </td>
+        </tr> -->
+        <!-- <tr>
+          <td>Dec&nbsp;8</td>
+          <td>Figgy Pudding Caroling Competition</td>
+          <td>Pioneer Courthouse Square</td>
+          <td>TBD, Evening time</td>
+          <td class="lastTd"><div style="width:100%;height:0;padding-bottom:84%;position:relative;"><iframe src="https://giphy.com/embed/yoJC2GnSClbPOkV0eA" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div></td>
+        </tr> -->
+        <!-- <tr>
+          <td>Dec&nbsp;15</td>
+          <td><a href="https://www.facebook.com/events/1519645828151755/" target="_blank">3rd Annual Northwest A Cappella Seasonal Showcase</a></td>
+          <td>4408 Delridge Way SW<br />Seattle, WA</td>
+          <td>doors @ 7pm<br />show @ 8pm</td>
+          <td class="lastTd">Come celebrate the season at this family friendly holiday showcase as some of the PNW's most entertaining contemporary a cappella groups take the stage!<br />For tickets &amp; more info check out the <a href="https://www.facebook.com/events/1519645828151755/" target="blank">Facebook event</a>.</td>
+        </tr> -->
+      </tbody>
+    </table>
+    <p class="center">Check back soon for updates!</p>
 
-
-
-    </div>
   </div>
+</div>
+
+
   <footer class="page-footer grey darken-4">
     <div class="container">
       <div class="row">
-        <!--               <div class="col l6 s12 center"> -->
         <div class="col s12 center">
           <h5 class="white-text">B-Side Book Club A Cappella</h5>
           <p class="white-text">Portland, Oregon | <a class="white-text" href="#!">Contact Us</a></p>
@@ -288,20 +288,11 @@
             <a href="https://www.youtube.com/channel/UCX7kpDHYwYUEIm0ziEBTxAQ"><i class="fa fa-youtube col s3 white-text" aria-hidden="true"></i></a>
           </div>
         </div>
-        <!--               <div class="col l4 offset-l2 s12 center">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="white-text" href="#!">Link 1</a></li>
-                  <li><a class="white-text" href="#!">Link 2</a></li>
-                  <li><a class="white-text" href="#!">Link 3</a></li>
-                  <li><a class="white-text" href="#!">Link 4</a></li>
-                </ul>
-              </div> -->
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container black-text">
-        © 2017 Copyright B-Side Book Club
+      <div class="container">
+        © 2019 Copyright B-Side Book Club
       </div>
     </div>
   </footer>
@@ -309,10 +300,6 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
-  <script src="js/bsidemembers.js"></script>
-  <script>
-    // Materialize.updateTextFields();
-  </script>
 
 </body>
 
