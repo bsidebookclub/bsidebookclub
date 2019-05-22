@@ -5,15 +5,21 @@
   
 
   
-  <title>B-Side Book Club</title>
+  <title>About | B-Side Book Club</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="B-Side Book Club">
-<meta property="og:url" content="https://bsidebookclub.com/index.html">
+  <meta name="description" content="About Us  Established in 2015, B-Side Book Club A Cappella emerged from a group of close-knit friends who all shared a love for singing. All of the group members participated in collegiate A Cappella">
+<meta property="og:type" content="website">
+<meta property="og:title" content="About">
+<meta property="og:url" content="https://bsidebookclub.com/about/index.html">
 <meta property="og:site_name" content="B-Side Book Club">
+<meta property="og:description" content="About Us  Established in 2015, B-Side Book Club A Cappella emerged from a group of close-knit friends who all shared a love for singing. All of the group members participated in collegiate A Cappella">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="https://bsidebookclub.com/img/bsidebytheseaside.jpg">
+<meta property="og:updated_time" content="2019-05-22T01:12:50.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="B-Side Book Club">
+<meta name="twitter:title" content="About">
+<meta name="twitter:description" content="About Us  Established in 2015, B-Side Book Club A Cappella emerged from a group of close-knit friends who all shared a love for singing. All of the group members participated in collegiate A Cappella">
+<meta name="twitter:image" content="https://bsidebookclub.com/img/bsidebytheseaside.jpg">
   
   
     <link rel="icon" href="/favicon.png">
@@ -78,20 +84,38 @@
 </header>
 
       <div class="outer">
-        
-
-<section id="main" class="clearfloat">
+        <section id="main" class="clearfloat">
   <article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
   <div class="article-inner center">
     <div class="article-entry" itemprop="articleBody">
-        <img class="homeImg marginCenter z-depth-5" style="max-height: 550px;width: auto;max-width: 100%;" src="/img/bsidecollage.jpg">
-<h4>B-Side Book Club A Cappella is a community of friends, voices, and musicians who all share a love for creating music. Based in Portland, Oregon we work together to creatively produce music that is enjoyable, beautiful, and meaningful. Through this, we strive to share our music with other music lovers in and around the Portland area.</h4>
+        <div class="textleft">
+<h1 class="center">About Us</h1>
+<p><img src="/img/bsidebytheseaside.jpg" alt class="full-width"></p>
+<p>Established in 2015, B-Side Book Club A Cappella emerged from a group of close-knit friends who all shared a love for singing. All of the group members participated in collegiate A Cappella during their undergrad and wanted to continue singing together beyond graduation. Since our first meeting around a dining room table, we have performed in multiple venues throughout Portland, collaborated with other A Cappella groups, and become a recognized non-profit organization.</p>
+<p>Through it all, our mission has been unwavering; to creatively produce music that is enjoyable, beautiful, and meaningful. B-Side Book Club has been a place of solace, creativity, and musical inspiration for all of its members. We all get a lot of joy from this group, and we love being able to share our music with other people. Interested in hearing us? Listen to our music, catch us at our next show, or contact us for more information.</p>
+<p>B-Side Book Club operates with a nominated board, composed of members that are dedicated to our mission. They are responsible for our financial health and growth. We are committed to transparency and accessibility - If you would like to learn more about us please <a href="/contact/">contact us</a>.</p>
+<h4>Adriana Hernandez — Music Director</h4>
+<h4>Mason Wordell — Secretary</h4>
+<h4>Alison Noe — Treasurer</h4>
+<div id="bsidevue">
+<section>
+<h1>Our Members</h1>
 <div class="center">
-<h2>Want us to perform at your event?</h2>
-<p><a href="/contact/" class="center" style="color: white;">
-	<button class="z-depth-2 btn">Book Us!</button>
-</a></p>
+  <div v-for="member in members">
+<p><img src alt class="z-depth-2 memberImage" :src="member.image" v-bind:alt="member.desc"></p>
+  </div>
 </div>
+</section>
+<section>
+<h1>Alumni</h1>
+<p>With people always on the move, B-side is always changing. Here are our past members who will forever be a part of the Book Club family:</p>
+<p cass="center" style="column-count:3">
+  <span v-for="alum in alumni"><i v-html="alum"></i><br></span>
+</p>    
+</section>
+</div>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="/js/bsidemembers.js"></script></div>
     </div>
   </div>
   <footer class="article-footer"></footer>
