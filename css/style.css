@@ -753,9 +753,6 @@ a.article-title:hover {
   font-family: FontAwesome;
   padding-right: 6px;
 }
-#article-nav {
-  position: relative;
-}
 #article-nav:before,
 #article-nav:after {
   content: "";
@@ -820,7 +817,7 @@ a.article-title:hover {
 .article-nav-caption {
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #ddd;
+  color: #ccc;
   line-height: 1em;
   font-weight: bold;
 }
