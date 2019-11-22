@@ -5,9 +5,9 @@ var bsideMembers = [{
   image: '/img/profileImg/Adriana%20-%20Soprano.JPG',
   voicepart: 'Soprano'
 }, {
-  fname: 'Sierra',
-  lname: 'Bertolone-Smith',
-  image: '/img/profileImg/Sierra%20-%20Soprano.jpg',
+  fname: 'Christina',
+  lname: 'Avellan',
+  image: '/img/profileImg/Christina%20-%20Soprano.jpg',
   voicepart: 'Soprano'
 }, {
   fname: 'Alison',
@@ -35,6 +35,11 @@ var bsideMembers = [{
   image: '/img/profileImg/Kimo%20-%20Tenor.jpg',
   voicepart: 'Tenor'
 }, {
+  fname: 'Jordan',
+  lname: 'Bilbrew',
+  image: '/img/profileImg/Jordan%20-%20Tenor.jpg',
+  voicepart: 'Tenor'
+}, {
   fname: 'Matthew',
   lname: 'Spady',
   image: '/img/profileImg/Matthew%20-%20Tenor.jpg',
@@ -60,9 +65,9 @@ var bsideMembers = [{
   image: '/img/profileImg/Mason%20-%20Bass.jpg',
   voicepart: 'Bass'
 }, {
-  fname: 'Andy',
-  lname: 'Erickson',
-  image: '/img/profileImg/Andy%20-%20Bass.jpg',
+  fname: 'John',
+  lname: 'Corr',
+  image: '/img/profileImg/John%20-%20Bass.jpg',
   voicepart: 'Bass'
 }].map(member => {
   member.desc = `${member.fname} ${member.lname}:  ${member.voicepart}`;
@@ -81,6 +86,8 @@ var alumni = [
   'Max Whitaker',
   'Emerald Kaitryn',
   'Kat Milan',
+  'Sierra Bertolone-Smith',
+  'Andrew Erickson'
 ].sort();
 
 var bsidevue = new Vue({
